@@ -1,6 +1,6 @@
 {
     "schemaVersion":  "1",
-    "generatedTime":  "2026-06-27T19:42:50Z",
+    "generatedTime":  "2026-06-27T19:49:29Z",
     "entries":  [
                     {
                         "pluginId":  "stats",
@@ -29,8 +29,8 @@
                                        "homepageUrl":  "https://github.com/Sywyar/PixivDownloader",
                                        "license":  "MIT",
                                        "downloadCount":  0,
-                                       "latestVersion":  "0.0.1-SNAPSHOT",
-                                       "updatedTime":  "2026-06-27T19:42:49Z",
+                                       "latestVersion":  "1.0.0",
+                                       "updatedTime":  "2026-06-27T19:49:28Z",
                                        "iconToken":  "chart-line",
                                        "colorToken":  "green",
                                        "recommended":  true,
@@ -38,15 +38,15 @@
                                    },
                         "packages":  [
                                          {
-                                             "version":  "0.0.1-SNAPSHOT",
-                                             "packageUrl":  "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/stats-v0.0.1-SNAPSHOT/pixivdownload-plugin-stats-0.0.1-SNAPSHOT.jar",
-                                             "expectedSizeBytes":  27876,
-                                             "sha256":  "43364de0dd6428a2d6a13fb87b666cab99339d2b5fd63a3395021715da2730eb",
+                                             "version":  "1.0.0",
+                                             "packageUrl":  "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/stats-v1.0.0/pixivdownload-plugin-stats-1.0.0.jar",
+                                             "expectedSizeBytes":  27874,
+                                             "sha256":  "1d1c4160b544da235a4d2a68b1e5f76d58272944beb7474c2326daac56b0aad4",
                                              "requiredCoreApi":  "1.0",
                                              "dependencies":  [
 
                                                               ],
-                                             "releasedTime":  "2026-06-27T19:42:49Z",
+                                             "releasedTime":  "2026-06-27T19:49:28Z",
                                              "changeNotes":  [
                                                                  "首个外置版本"
                                                              ],
