@@ -1,0 +1,59 @@
+{
+    "schemaVersion":  "1",
+    "generatedTime":  "2026-06-27T19:42:50Z",
+    "entries":  [
+                    {
+                        "pluginId":  "stats",
+                        "displayNameKey":  "stats:nav.label",
+                        "descriptionKey":  "stats:plugin.summary",
+                        "market":  {
+                                       "displayName":  {
+                                                           "zh":  "统计",
+                                                           "en":  "Statistics"
+                                                       },
+                                       "summary":  {
+                                                       "zh":  "下载统计仪表盘",
+                                                       "en":  "Download stats dashboard"
+                                                   },
+                                       "description":  {
+                                                           "zh":  "按作者 / 标签 / 时间维度汇总下载量的统计仪表盘（管理员专属）。",
+                                                           "en":  "Admin-only dashboard aggregating downloads by author / tag / time."
+                                                       },
+                                       "author":  "Sywyar",
+                                       "sourceType":  "official",
+                                       "category":  "utility",
+                                       "tags":  [
+                                                    "statistics",
+                                                    "dashboard"
+                                                ],
+                                       "homepageUrl":  "https://github.com/Sywyar/PixivDownloader",
+                                       "license":  "MIT",
+                                       "downloadCount":  0,
+                                       "latestVersion":  "0.0.1-SNAPSHOT",
+                                       "updatedTime":  "2026-06-27T19:42:49Z",
+                                       "iconToken":  "chart-line",
+                                       "colorToken":  "green",
+                                       "recommended":  true,
+                                       "officialRequired":  false
+                                   },
+                        "packages":  [
+                                         {
+                                             "version":  "0.0.1-SNAPSHOT",
+                                             "packageUrl":  "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/stats-v0.0.1-SNAPSHOT/pixivdownload-plugin-stats-0.0.1-SNAPSHOT.jar",
+                                             "expectedSizeBytes":  27876,
+                                             "sha256":  "43364de0dd6428a2d6a13fb87b666cab99339d2b5fd63a3395021715da2730eb",
+                                             "requiredCoreApi":  "1.0",
+                                             "dependencies":  [
+
+                                                              ],
+                                             "releasedTime":  "2026-06-27T19:42:49Z",
+                                             "changeNotes":  [
+                                                                 "首个外置版本"
+                                                             ],
+                                             "channel":  "stable",
+                                             "deprecated":  false
+                                         }
+                                     ]
+                    }
+                ]
+}
