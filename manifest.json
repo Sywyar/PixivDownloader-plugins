@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedTime": "2026-07-01T10:01:27Z",
+  "generatedTime": "2026-07-01T15:54:00Z",
   "entries": [
     {
       "pluginId": "gui-theme",
@@ -29,9 +29,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "MIT",
-        "downloadCount": 0,
+        "downloadCount": 2,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 0,
+        "totalDownloadCount": 2,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-07-01T08:22:05Z",
         "iconToken": "palette",
@@ -89,9 +89,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "MIT",
-        "downloadCount": 25,
+        "downloadCount": 27,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 25,
+        "totalDownloadCount": 27,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-06-27T19:49:28Z",
         "iconToken": "chart-line",
@@ -115,6 +115,250 @@
           "requiredCoreApi": "1.0",
           "dependencies": [],
           "releasedTime": "2026-06-27T19:49:28Z",
+          "changeNotes": [
+            "首个外置版本"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "push",
+      "displayNameKey": "push:plugin.name",
+      "descriptionKey": "push:plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "推送通知",
+          "en": "Push Notifications"
+        },
+        "summary": {
+          "zh": "计划任务告警使用的多通道推送通知",
+          "en": "Push notification channels for scheduled task alerts"
+        },
+        "description": {
+          "zh": "提供 Webhook、Telegram、Server 酱、PushPlus、企业微信、飞书、钉钉、Bark 等推送渠道。",
+          "en": "Adds Webhook, Telegram, ServerChan, PushPlus, WeCom, Feishu, DingTalk, and Bark push channels."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "notification",
+        "tags": [
+          "push",
+          "notification",
+          "schedule"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "MIT",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0",
+        "updatedTime": "2026-07-01T15:53:10Z",
+        "iconToken": "bell-ring",
+        "colorToken": "blue",
+        "recommended": true,
+        "officialRequired": false
+      },
+      "packages": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/push-v1.0.0/pixivdownload-plugin-push-1.0.0.jar",
+          "expectedSizeBytes": 126816,
+          "sha256": "59c5eea808a312fb82e8e76ce283457e9a327e869de6325f8c81bc959e07ca9b",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "l8PsldFe7LqnQT3r0C742UfydJZWDbf8ODbfNpgQIKQ2IA71e4zvzy5nHibbtsiIRIim9u9cfwdqgblFymYcAA=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/push-v1.0.0/pixivdownload-plugin-push-1.0.0.jar.sig",
+          "requiredCoreApi": "1.0",
+          "dependencies": [],
+          "releasedTime": "2026-07-01T15:53:10Z",
+          "changeNotes": [
+            "首个外置版本"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "mail",
+      "displayNameKey": "mail:plugin.name",
+      "descriptionKey": "mail:plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "邮件通知",
+          "en": "Mail Notifications"
+        },
+        "summary": {
+          "zh": "SMTP 邮件通知发送与模板",
+          "en": "SMTP mail notification delivery and templates"
+        },
+        "description": {
+          "zh": "提供 SMTP 邮件通知发送、服务商预设、测试邮件与计划任务通知模板。",
+          "en": "Adds SMTP mail delivery, provider presets, test mail, and scheduled-task notification templates."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "notification",
+        "tags": [
+          "mail",
+          "smtp",
+          "notification"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "MIT",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0",
+        "updatedTime": "2026-07-01T15:53:30Z",
+        "iconToken": "mail",
+        "colorToken": "teal",
+        "recommended": true,
+        "officialRequired": false
+      },
+      "packages": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/mail-v1.0.0/pixivdownload-plugin-mail-1.0.0.jar",
+          "expectedSizeBytes": 991539,
+          "sha256": "6a47c2f26d2c747bf263c345578c6635e3aa0335ca5c5fac7213009632d587e0",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "DNYCHx/yp6Hc+TYNzCYrDNGUIf9T6ff1bk0etIt3QYhCBkpuT1xmyoR/8oBv+R1HQAU9faDf7U/zd0PhqLTHBw=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/mail-v1.0.0/pixivdownload-plugin-mail-1.0.0.jar.sig",
+          "requiredCoreApi": "1.0",
+          "dependencies": [],
+          "releasedTime": "2026-07-01T15:53:30Z",
+          "changeNotes": [
+            "首个外置版本"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "tts",
+      "displayNameKey": "tts:plugin.name",
+      "descriptionKey": "tts:plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "TTS 朗读",
+          "en": "TTS Narration"
+        },
+        "summary": {
+          "zh": "在线 TTS 与小说朗读语音引擎",
+          "en": "Online TTS and narration voice engines"
+        },
+        "description": {
+          "zh": "提供 Edge TTS 听书入口，以及 VoxCPM、MiMo、CosyVoice、Fish Audio、MiniMax、ElevenLabs、Qwen、Doubao 等朗读引擎。",
+          "en": "Adds the Edge TTS listening entry and narration engines including VoxCPM, MiMo, CosyVoice, Fish Audio, MiniMax, ElevenLabs, Qwen, and Doubao."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "media",
+        "tags": [
+          "tts",
+          "narration",
+          "novel"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "MIT",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0",
+        "updatedTime": "2026-07-01T15:53:43Z",
+        "iconToken": "audio-lines",
+        "colorToken": "orange",
+        "recommended": true,
+        "officialRequired": false
+      },
+      "packages": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/tts-v1.0.0/pixivdownload-plugin-tts-1.0.0.jar",
+          "expectedSizeBytes": 187536,
+          "sha256": "f07d8621f15f7364180cc759c5f88a5acb60b6de8e10169b84afd730b0a701e7",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "+X9PVMWXLk/vsCtvHWkAEasvmohN88zekH6N5bd8NbG/QW/tjJgTYZrM07OKhoBQD7gqJNBoyDCceFCFqbAUBQ=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/tts-v1.0.0/pixivdownload-plugin-tts-1.0.0.jar.sig",
+          "requiredCoreApi": "1.0",
+          "dependencies": [],
+          "releasedTime": "2026-07-01T15:53:43Z",
+          "changeNotes": [
+            "首个外置版本"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "ai",
+      "displayNameKey": "ai:plugin.name",
+      "descriptionKey": "ai:plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "AI 翻译",
+          "en": "AI Translation"
+        },
+        "summary": {
+          "zh": "OpenAI 兼容聊天与自动翻译能力",
+          "en": "OpenAI-compatible chat and translation capabilities"
+        },
+        "description": {
+          "zh": "提供 OpenAI 兼容模型调用、连接测试、小说自动翻译、系列翻译与听书剧本分析的 AI 能力。",
+          "en": "Adds OpenAI-compatible model calls, connectivity tests, novel auto-translation, series translation, and AI narration analysis."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "ai",
+        "tags": [
+          "ai",
+          "translation",
+          "openai-compatible"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "MIT",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0",
+        "updatedTime": "2026-07-01T15:53:53Z",
+        "iconToken": "sparkles",
+        "colorToken": "pink",
+        "recommended": true,
+        "officialRequired": false
+      },
+      "packages": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/ai-v1.0.0/pixivdownload-plugin-ai-1.0.0.jar",
+          "expectedSizeBytes": 66011,
+          "sha256": "dd4b10cd5bd6628599944a85b0a52344afb30502435fd7203f5e569e7f6ded44",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "41yryb07+GKIl9UeqnM5cZ3vxCSvXTBf2l/SsiDsFvhd5IyTtRWu/uwI01xU7zq442NOIYIV+DoPnEbj1d0DCQ=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/ai-v1.0.0/pixivdownload-plugin-ai-1.0.0.jar.sig",
+          "requiredCoreApi": "1.0",
+          "dependencies": [],
+          "releasedTime": "2026-07-01T15:53:53Z",
           "changeNotes": [
             "首个外置版本"
           ],
