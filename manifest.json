@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedTime": "2026-07-01T08:22:13Z",
+  "generatedTime": "2026-07-01T10:01:27Z",
   "entries": [
     {
       "pluginId": "gui-theme",
@@ -42,16 +42,16 @@
       "packages": [
         {
           "version": "1.0.0",
-          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-theme-v1.0.0/pixivdownload-plugin-gui-theme-1.0.0.zip",
-          "expectedSizeBytes": 4280202,
-          "sha256": "8fd596d180acb7cc201aa77f9fd93e975885149e667c3db9438333718a354f73",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-theme-v1.0.0/pixivdownload-plugin-gui-theme-1.0.0.jar",
+          "expectedSizeBytes": 4282038,
+          "sha256": "a4a11456e1ca413b51dcaaac9615f965d5316d8251e2e335aee920d1bee4d701",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "fElmZeTgWgZM1dg0TkZ5H642tfN0G7OzYybburv8S8OqvNCmAM/luFgAbDVFsQaLL6EMti2vBDkYkQqTLmeVAw=="
+            "value": "Vvs6OrIX8ZiLxnJGE/TL++HLeM8mknocsmpdavr6zIHvFdlZGpqKs9TCK6gPl8KkJCjxr7h5lhhn5NKj1W4DCA=="
           },
-          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-theme-v1.0.0/pixivdownload-plugin-gui-theme-1.0.0.zip.sig",
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-theme-v1.0.0/pixivdownload-plugin-gui-theme-1.0.0.jar.sig",
           "requiredCoreApi": "1.0",
           "dependencies": [],
           "releasedTime": "2026-07-01T08:22:05Z",
@@ -89,9 +89,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "MIT",
-        "downloadCount": 24,
+        "downloadCount": 25,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 24,
+        "totalDownloadCount": 25,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-06-27T19:49:28Z",
         "iconToken": "chart-line",
