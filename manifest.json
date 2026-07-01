@@ -1,7 +1,68 @@
 {
   "schemaVersion": "1",
-  "generatedTime": "2026-07-01T04:24:07Z",
+  "generatedTime": "2026-07-01T08:01:56Z",
   "entries": [
+    {
+      "pluginId": "gui-theme",
+      "displayNameKey": "gui-theme:plugin.label",
+      "descriptionKey": "gui-theme:plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "GUI 主题",
+          "en": "GUI Theme"
+        },
+        "summary": {
+          "zh": "桌面 GUI 的系统、浅色、深色与 Moonlight 主题",
+          "en": "System, light, dark, and Moonlight themes for the desktop GUI"
+        },
+        "description": {
+          "zh": "为桌面 GUI 提供跟随系统、浅色、深色与 Moonlight 主题，并在完整重启后应用启动期主题。",
+          "en": "Adds system, light, dark, and Moonlight themes to the desktop GUI, applied during startup after a full restart."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "ui",
+        "tags": [
+          "gui",
+          "theme",
+          "look-and-feel"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "MIT",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0",
+        "updatedTime": "2026-07-01T08:01:48Z",
+        "iconToken": "palette",
+        "colorToken": "purple",
+        "recommended": true,
+        "officialRequired": false
+      },
+      "packages": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-theme-v1.0.0/pixivdownload-plugin-gui-theme-1.0.0.zip",
+          "expectedSizeBytes": 4279840,
+          "sha256": "e7b1061c7f0739cce42ca0264f809e4ba08d977cbe7722b072b58ea154ba8999",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "ssINS2GfCuf0TgGp6+pWXB3rtN+eyEZxkb42bknoXlgcGB26b/QHOy/Xii5Sk6wkORAEm1YQgJoG84UWGrNoDw=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-theme-v1.0.0/pixivdownload-plugin-gui-theme-1.0.0.zip.sig",
+          "requiredCoreApi": "1.0",
+          "dependencies": [],
+          "releasedTime": "2026-07-01T08:01:48Z",
+          "changeNotes": [
+            "首个外置版本"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        }
+      ]
+    },
     {
       "pluginId": "stats",
       "displayNameKey": "stats:nav.label",
@@ -28,9 +89,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "MIT",
-        "downloadCount": 22,
+        "downloadCount": 23,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 22,
+        "totalDownloadCount": 23,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-06-27T19:49:28Z",
         "iconToken": "chart-line",
