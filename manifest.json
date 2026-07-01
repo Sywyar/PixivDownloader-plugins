@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedTime": "2026-07-01T08:01:56Z",
+  "generatedTime": "2026-07-01T08:22:13Z",
   "entries": [
     {
       "pluginId": "gui-theme",
@@ -33,7 +33,7 @@
         "previousDownloadCount": 0,
         "totalDownloadCount": 0,
         "latestVersion": "1.0.0",
-        "updatedTime": "2026-07-01T08:01:48Z",
+        "updatedTime": "2026-07-01T08:22:05Z",
         "iconToken": "palette",
         "colorToken": "purple",
         "recommended": true,
@@ -43,18 +43,18 @@
         {
           "version": "1.0.0",
           "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-theme-v1.0.0/pixivdownload-plugin-gui-theme-1.0.0.zip",
-          "expectedSizeBytes": 4279840,
-          "sha256": "e7b1061c7f0739cce42ca0264f809e4ba08d977cbe7722b072b58ea154ba8999",
+          "expectedSizeBytes": 4280202,
+          "sha256": "8fd596d180acb7cc201aa77f9fd93e975885149e667c3db9438333718a354f73",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "ssINS2GfCuf0TgGp6+pWXB3rtN+eyEZxkb42bknoXlgcGB26b/QHOy/Xii5Sk6wkORAEm1YQgJoG84UWGrNoDw=="
+            "value": "fElmZeTgWgZM1dg0TkZ5H642tfN0G7OzYybburv8S8OqvNCmAM/luFgAbDVFsQaLL6EMti2vBDkYkQqTLmeVAw=="
           },
           "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-theme-v1.0.0/pixivdownload-plugin-gui-theme-1.0.0.zip.sig",
           "requiredCoreApi": "1.0",
           "dependencies": [],
-          "releasedTime": "2026-07-01T08:01:48Z",
+          "releasedTime": "2026-07-01T08:22:05Z",
           "changeNotes": [
             "首个外置版本"
           ],
@@ -89,9 +89,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "MIT",
-        "downloadCount": 23,
+        "downloadCount": 24,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 23,
+        "totalDownloadCount": 24,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-06-27T19:49:28Z",
         "iconToken": "chart-line",
