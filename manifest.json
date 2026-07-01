@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedTime": "2026-06-30T20:28:24Z",
+  "generatedTime": "2026-07-01T04:03:32Z",
   "entries": [
     {
       "pluginId": "stats",
@@ -28,9 +28,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "MIT",
-        "downloadCount": 16,
+        "downloadCount": 18,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 16,
+        "totalDownloadCount": 18,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-06-27T19:49:28Z",
         "iconToken": "chart-line",
@@ -44,6 +44,13 @@
           "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/stats-v1.0.0/pixivdownload-plugin-stats-1.0.0.jar",
           "expectedSizeBytes": 27874,
           "sha256": "1d1c4160b544da235a4d2a68b1e5f76d58272944beb7474c2326daac56b0aad4",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "+ucx88bkjS6bICuqhUnfuABhUkFt48KSlRdQ+8qg6AsWGHkoW2O1Cyb4Aw8Io+uM51iOhYzNWVjR74dEeONaCQ=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/stats-v1.0.0/pixivdownload-plugin-stats-1.0.0.jar.sig",
           "requiredCoreApi": "1.0",
           "dependencies": [],
           "releasedTime": "2026-06-27T19:49:28Z",
