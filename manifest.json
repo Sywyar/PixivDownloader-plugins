@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedTime": "2026-07-01T04:14:04Z",
+  "generatedTime": "2026-07-01T04:24:07Z",
   "entries": [
     {
       "pluginId": "stats",
@@ -28,9 +28,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "MIT",
-        "downloadCount": 19,
+        "downloadCount": 22,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 19,
+        "totalDownloadCount": 22,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-06-27T19:49:28Z",
         "iconToken": "chart-line",
