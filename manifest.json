@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedTime": "2026-08-10T05:14:32Z",
+  "generatedTime": "2026-08-13T19:44:37Z",
   "entries": [
     {
       "pluginId": "download-workbench",
@@ -32,9 +32,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 3,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 3,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-07-03T17:01:02Z",
         "iconToken": "download",
@@ -57,7 +57,9 @@
           },
           "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/download-workbench-v1.0.0/pixivdownload-plugin-download-workbench-1.0.0.jar.sig",
           "requiredCoreApi": "1.0",
-          "dependencies": [],
+          "dependencies": [
+            "posthog?@1.0"
+          ],
           "releasedTime": "2026-07-03T17:01:02Z",
           "changeNotes": [
             "下载工作台从核心壳外置为官方必需插件"
@@ -95,9 +97,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 3,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 3,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-07-01T16:15:13Z",
         "iconToken": "palette",
@@ -157,9 +159,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 3,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 3,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-07-01T16:15:26Z",
         "iconToken": "chart-line",
@@ -184,6 +186,70 @@
           "requiredCoreApi": "1.0",
           "dependencies": [],
           "releasedTime": "2026-07-01T16:15:26Z",
+          "changeNotes": [
+            "首个外置版本"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "posthog",
+      "displayNamespace": "posthog",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "PostHog 调查支持",
+          "en": "PostHog Survey Support"
+        },
+        "summary": {
+          "zh": "为其它插件提供由调用方配置的隔离 PostHog 调查客户端。",
+          "en": "Provides caller-configured isolated PostHog survey clients for other plugins."
+        },
+        "description": {
+          "zh": "提供官方 PostHog 浏览器 SDK 与隔离的命名调查客户端；调查发布插件自持并传入项目参数与调查语义。",
+          "en": "Provides the official PostHog browser SDK and isolated named survey clients; survey-publishing plugins own and pass their project parameters and survey semantics."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "dependency",
+        "tags": [
+          "posthog",
+          "survey",
+          "telemetry",
+          "sdk"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0",
+        "updatedTime": "2026-08-13T19:44:07Z",
+        "iconToken": "puzzle",
+        "colorToken": "purple",
+        "recommended": true,
+        "officialRequired": false,
+        "defaultInstalled": true
+      },
+      "packages": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/posthog-v1.0.0/pixivdownload-plugin-posthog-1.0.0.jar",
+          "expectedSizeBytes": 160992,
+          "sha256": "6f00625bf90ca8dba50e4a3771c83031c4cd003ab66dbcb6367e6cd66052491b",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "pqgSuG8qbDux7Jsa3V3SUTyqFAWWBtNFdu52ZziA7fwE46v2Ho7dd33NK/fsEYJnnUrU3PI9W7wyUzzJjLE0BQ=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/posthog-v1.0.0/pixivdownload-plugin-posthog-1.0.0.jar.sig",
+          "requiredCoreApi": "1.0",
+          "dependencies": [],
+          "releasedTime": "2026-08-13T19:44:07Z",
           "changeNotes": [
             "首个外置版本"
           ],
@@ -220,9 +286,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 3,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 3,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-07-04T09:15:20Z",
         "iconToken": "duplicate",
@@ -284,9 +350,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 3,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 3,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-07-04T09:15:42Z",
         "iconToken": "gallery",
@@ -348,9 +414,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 3,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 3,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-08-02T19:49:56Z",
         "iconToken": "book",
@@ -394,26 +460,27 @@
           "en": "Notifications"
         },
         "summary": {
-          "zh": "通知场景与级别的基础配置。",
-          "en": "Base configuration for notification scenarios and severity."
+          "zh": "通知场景、级别与管理员站内信。",
+          "en": "Notification scenarios, severity, and the administrator inbox."
         },
         "description": {
-          "zh": "提供通知场景开关和中性通知级别文案，不发送邮件或推送；邮件与推送插件依赖它共享通知语义。",
-          "en": "Provides notification scenario toggles and neutral severity labels without sending mail or push messages; mail and push plugins depend on it for shared notification semantics."
+          "zh": "提供通知场景开关、中性通知级别与管理员站内信；邮件和推送插件依赖它共享通知语义。",
+          "en": "Provides notification scenario toggles, neutral severity, and the administrator inbox; mail and push plugins depend on it for shared notification semantics."
         },
         "author": "Sywyar",
         "sourceType": "official",
         "category": "dependency",
         "tags": [
           "notification",
+          "inbox",
           "scenario",
           "configuration"
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 3,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 3,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-07-02T10:20:51Z",
         "iconToken": "bell",
@@ -439,7 +506,74 @@
           "dependencies": [],
           "releasedTime": "2026-07-02T10:20:51Z",
           "changeNotes": [
-            "首个外置版本"
+            "新增管理员站内信入口、分类消息与详情页"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "multi-mode-decision-survey",
+      "displayNamespace": "multi-mode-decision-survey",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "多人模式去留调查",
+          "en": "Multi-user Mode Decision Survey"
+        },
+        "summary": {
+          "zh": "通过管理员站内信收集是否保留多人模式的意见。",
+          "en": "Collects feedback on whether multi-user mode should be retained through the administrator inbox."
+        },
+        "description": {
+          "zh": "通过管理员站内信收集多人模式保留意愿；调查参数与问卷语义由本插件自持。",
+          "en": "Collects feedback on retaining multi-user mode through the administrator inbox; this plugin owns the survey parameters and semantics."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "utility",
+        "tags": [
+          "survey",
+          "multi-mode",
+          "inbox",
+          "posthog"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0",
+        "updatedTime": "2026-08-13T19:44:33Z",
+        "iconToken": "users",
+        "colorToken": "amber",
+        "recommended": true,
+        "officialRequired": false,
+        "defaultInstalled": true
+      },
+      "packages": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/multi-mode-decision-survey-v1.0.0/pixivdownload-plugin-multi-mode-decision-survey-1.0.0.jar",
+          "expectedSizeBytes": 19959,
+          "sha256": "05ed869168ad995f58bc3952658df0b789f11e8a9c141f2910a9e34378324a6e",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "s5LTEZuqnyh6AiKv8E2fiMZDpP4fTS9ryPP1Nsi2mLkG/TJnZfWkiFXgmMCr0hHkLgXjbbUt6ihDyBtIsDRKDQ=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/multi-mode-decision-survey-v1.0.0/pixivdownload-plugin-multi-mode-decision-survey-1.0.0.jar.sig",
+          "requiredCoreApi": "1.0",
+          "dependencies": [
+            "posthog@1.0",
+            "notification@1.0"
+          ],
+          "releasedTime": "2026-08-13T19:44:33Z",
+          "changeNotes": [
+            "新增多人模式去留调查站内信"
           ],
           "channel": "stable",
           "deprecated": false
@@ -474,9 +608,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 3,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 3,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-07-01T16:15:36Z",
         "iconToken": "bell",
@@ -539,9 +673,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 3,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 3,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-07-01T16:15:47Z",
         "iconToken": "mail",
@@ -604,9 +738,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 3,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 3,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-07-01T16:16:00Z",
         "iconToken": "audio-lines",
@@ -667,9 +801,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 3,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 3,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-07-01T16:16:10Z",
         "iconToken": "sparkles",
@@ -732,9 +866,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 3,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 3,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-08-02T19:50:14Z",
         "iconToken": "video",
