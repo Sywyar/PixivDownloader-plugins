@@ -1,0 +1,919 @@
+{
+  "schemaVersion": "1",
+  "generatedTime": "2026-08-25T19:21:58Z",
+  "entries": [
+    {
+      "pluginId": "download-workbench",
+      "displayNamespace": "batch",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "下载工作台",
+          "en": "Download Workbench"
+        },
+        "summary": {
+          "zh": "提交 Pixiv 抓取任务、管理下载队列与下载历史的工作台（必选）。",
+          "en": "Workbench for submitting Pixiv fetch tasks and managing the download queue and history (required)."
+        },
+        "description": {
+          "zh": "官方必需插件，提供基础插画下载工作流、下载队列、批量状态、Pixiv 代理入口、下载页静态资源、油猴脚本分发与计划下载宿主。缺失时核心壳进入恢复 / 补齐模式。",
+          "en": "Official required plugin providing the basic illustration download workflow, queue, batch state, Pixiv proxy endpoints, workbench static assets, userscript distribution, and scheduled download host. When missing, the core shell enters recovery/repair mode."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "download",
+        "tags": [
+          "download",
+          "pixiv",
+          "queue",
+          "userscript",
+          "schedule"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0-nightly.20260825.108.1",
+        "updatedTime": "2026-08-25T19:17:57Z",
+        "iconToken": "download",
+        "colorToken": "pixiv",
+        "recommended": true,
+        "officialRequired": true,
+        "defaultInstalled": true
+      },
+      "packages": [
+        {
+          "version": "1.0.0-nightly.20260825.108.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/download-workbench-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-download-workbench-1.0.0-nightly.20260825.108.1.jar",
+          "expectedSizeBytes": 1441169,
+          "sha256": "78811f3ec7a96233250b2bda98e665b21aadaf2e81c1b68f8a1b021ccce824dd",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "5ZD1VVsrqR8URc8fRlVsIeEo9R0n3UVDeOnpWa+a/R2vfrhEOfSuh1xX1aOTs2c/pCV7j2WB+3e5ci9s8AlVAg=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/download-workbench-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-download-workbench-1.0.0-nightly.20260825.108.1.jar.sig",
+          "requiredSdk": "1.0",
+          "requiredCoreApi": "1.0",
+          "dependencies": [
+            "posthog?@1.0"
+          ],
+          "releasedTime": "2026-08-25T19:17:57Z",
+          "changeNotes": [
+            "下载工作台从核心壳外置为官方必需插件"
+          ],
+          "channel": "nightly",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "gui-theme",
+      "displayNamespace": "gui-theme",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "GUI 主题",
+          "en": "GUI Theme"
+        },
+        "summary": {
+          "zh": "官方 GUI 主题插件：跟随系统、浅色、深色与 Moonlight。",
+          "en": "Official GUI theme plugin: system, light, dark, and Moonlight."
+        },
+        "description": {
+          "zh": "为桌面 GUI 提供跟随系统、浅色、深色与 Moonlight 主题，并在完整重启后应用启动期主题。",
+          "en": "Adds system, light, dark, and Moonlight themes to the desktop GUI, applied during startup after a full restart."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "ui",
+        "tags": [
+          "gui",
+          "theme",
+          "look-and-feel"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0-nightly.20260825.108.1",
+        "updatedTime": "2026-08-25T19:18:16Z",
+        "iconToken": "palette",
+        "colorToken": "blue",
+        "recommended": true,
+        "officialRequired": false,
+        "defaultInstalled": true
+      },
+      "packages": [
+        {
+          "version": "1.0.0-nightly.20260825.108.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-theme-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-gui-theme-1.0.0-nightly.20260825.108.1.jar",
+          "expectedSizeBytes": 4283239,
+          "sha256": "2df97736d135b3182c01c16391c7c82ad49a2f0649d6c10ba82ae378c047f802",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "Sw8i34aUPW+IN07szHYGxLCmlxo6odVBN+YwPQEkTKNWw27QRTM/NJkXHEzgTpw9hUwthzi4Ha9isR01CcVmCw=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-theme-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-gui-theme-1.0.0-nightly.20260825.108.1.jar.sig",
+          "requiredSdk": "1.0",
+          "requiredCoreApi": "1.0",
+          "dependencies": [],
+          "releasedTime": "2026-08-25T19:18:16Z",
+          "changeNotes": [
+            "首个外置版本"
+          ],
+          "channel": "nightly",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "stats",
+      "displayNamespace": "stats",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "统计",
+          "en": "Statistics"
+        },
+        "summary": {
+          "zh": "查看下载数量、图片数等统计数据的仪表盘（仅管理员）。",
+          "en": "Dashboard of download statistics such as artwork and image counts (admin only)."
+        },
+        "description": {
+          "zh": "按作者 / 标签 / 时间维度汇总下载量的统计仪表盘（管理员专属）。",
+          "en": "Admin-only dashboard aggregating downloads by author / tag / time."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "utility",
+        "tags": [
+          "statistics",
+          "dashboard"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0-nightly.20260825.108.1",
+        "updatedTime": "2026-08-25T19:18:31Z",
+        "iconToken": "chart-line",
+        "colorToken": "green",
+        "recommended": true,
+        "officialRequired": false,
+        "defaultInstalled": true
+      },
+      "packages": [
+        {
+          "version": "1.0.0-nightly.20260825.108.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/stats-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-stats-1.0.0-nightly.20260825.108.1.jar",
+          "expectedSizeBytes": 30400,
+          "sha256": "113a0c8d347181fa641435604e0a1cba6f0918daf95e5543d619f86104c5f81c",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "kWp7KAcpRvRiPJYW6roSQnk8rYKGQBq+Ji1Y8HYg14F4fCnwCCTJMF8K7lHbn5J60LeB+fbVwDxgxDSaYhkIAg=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/stats-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-stats-1.0.0-nightly.20260825.108.1.jar.sig",
+          "requiredSdk": "1.0",
+          "requiredCoreApi": "1.0",
+          "dependencies": [],
+          "releasedTime": "2026-08-25T19:18:31Z",
+          "changeNotes": [
+            "首个外置版本"
+          ],
+          "channel": "nightly",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "posthog",
+      "displayNamespace": "posthog",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "PostHog 调查支持",
+          "en": "PostHog Survey Support"
+        },
+        "summary": {
+          "zh": "为其它插件提供由调用方配置的隔离 PostHog 调查客户端。",
+          "en": "Provides caller-configured isolated PostHog survey clients for other plugins."
+        },
+        "description": {
+          "zh": "提供官方 PostHog 浏览器 SDK 与隔离的命名调查客户端；调查发布插件自持并传入项目参数与调查语义。",
+          "en": "Provides the official PostHog browser SDK and isolated named survey clients; survey-publishing plugins own and pass their project parameters and survey semantics."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "dependency",
+        "tags": [
+          "posthog",
+          "survey",
+          "telemetry",
+          "sdk"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0-nightly.20260825.108.1",
+        "updatedTime": "2026-08-25T19:18:43Z",
+        "iconToken": "puzzle",
+        "colorToken": "purple",
+        "recommended": true,
+        "officialRequired": false,
+        "defaultInstalled": true
+      },
+      "packages": [
+        {
+          "version": "1.0.0-nightly.20260825.108.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/posthog-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-posthog-1.0.0-nightly.20260825.108.1.jar",
+          "expectedSizeBytes": 164836,
+          "sha256": "908601a5e140313679b018f528f66c5626d873cae6755fdb385f190777e7b1ab",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "VzupPN94oKu0FkIK/AyXt4dF564DV9iXL8HKjiJxWp4xGJfwSxpJEGoyWIt5gOhYgMk2R7krppyU0VHhsaPeCw=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/posthog-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-posthog-1.0.0-nightly.20260825.108.1.jar.sig",
+          "requiredSdk": "1.0",
+          "requiredCoreApi": "1.0",
+          "dependencies": [],
+          "releasedTime": "2026-08-25T19:18:43Z",
+          "changeNotes": [
+            "首个外置版本"
+          ],
+          "channel": "nightly",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "duplicate",
+      "displayNamespace": "duplicates",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "重复检测",
+          "en": "Duplicate detection"
+        },
+        "summary": {
+          "zh": "基于图片 Hash 检测疑似重复的已下载作品（仅管理员）。",
+          "en": "Detect likely-duplicate downloaded artworks based on image hashes (admin only)."
+        },
+        "description": {
+          "zh": "基于核心图片 Hash 索引查找疑似重复作品，提供管理员专属分组页面、手动扫描与维护回填入口。",
+          "en": "Finds likely duplicate artworks from the core image hash index, with an admin-only grouping page, manual scan, and maintenance backfill entry."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "utility",
+        "tags": [
+          "duplicate",
+          "hash",
+          "image"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0-nightly.20260825.108.1",
+        "updatedTime": "2026-08-25T19:18:58Z",
+        "iconToken": "duplicate",
+        "colorToken": "red",
+        "recommended": true,
+        "officialRequired": false,
+        "defaultInstalled": true
+      },
+      "packages": [
+        {
+          "version": "1.0.0-nightly.20260825.108.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/duplicate-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-duplicate-1.0.0-nightly.20260825.108.1.jar",
+          "expectedSizeBytes": 50877,
+          "sha256": "6c65ce50e63117b98f9f77d9941f5579603a269061e1d004925c5f101a37b808",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "/NmVd3Aw7hLXAciD/c4VCFWe6gvBOGl4e0cVgE4n4Cfds2wr7sQ7Pv6vQGxhOWUFKQdeMpDe75ffRye8eSO3DQ=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/duplicate-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-duplicate-1.0.0-nightly.20260825.108.1.jar.sig",
+          "requiredSdk": "1.0",
+          "requiredCoreApi": "1.0",
+          "dependencies": [],
+          "releasedTime": "2026-08-25T19:18:58Z",
+          "changeNotes": [
+            "首个外置版本"
+          ],
+          "channel": "nightly",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "gallery",
+      "displayNamespace": "gallery",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "画廊",
+          "en": "Gallery"
+        },
+        "summary": {
+          "zh": "浏览、搜索、管理已下载的插画作品，包含作品详情、精选集与系列页面。",
+          "en": "Browse, search and manage downloaded illustrations, including artwork detail, showcase and series pages."
+        },
+        "description": {
+          "zh": "提供本地画廊、作品详情、精选集与系列页面，基于核心下载事实和 Pixiv 元数据展示历史作品。",
+          "en": "Provides the local gallery, artwork detail, showcase, and series pages backed by core download facts and Pixiv metadata."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "gallery",
+        "tags": [
+          "gallery",
+          "artwork",
+          "metadata",
+          "collections"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0-nightly.20260825.108.1",
+        "updatedTime": "2026-08-25T19:19:13Z",
+        "iconToken": "gallery",
+        "colorToken": "green",
+        "recommended": true,
+        "officialRequired": false,
+        "defaultInstalled": true
+      },
+      "packages": [
+        {
+          "version": "1.0.0-nightly.20260825.108.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gallery-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-gallery-1.0.0-nightly.20260825.108.1.jar",
+          "expectedSizeBytes": 196648,
+          "sha256": "c33c9797b01ed6cf0789b484c76cff5303c9b1c23280fdaa7f899176876cdd18",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "252kKl72oxajzJnRJgUQlTS+tvCG3HGp/6nVdsohi32DCeSgxy81L+6giuPU//pJ2yUwrtEpYT2LwK4kzToUDA=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gallery-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-gallery-1.0.0-nightly.20260825.108.1.jar.sig",
+          "requiredSdk": "1.0",
+          "requiredCoreApi": "1.0",
+          "dependencies": [],
+          "releasedTime": "2026-08-25T19:19:13Z",
+          "changeNotes": [
+            "首个外置版本"
+          ],
+          "channel": "nightly",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "novel",
+      "displayNamespace": "novel",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "小说",
+          "en": "Novels"
+        },
+        "summary": {
+          "zh": "浏览与阅读已下载的小说，支持系列合订、AI 翻译与听书朗读。",
+          "en": "Browse and read downloaded novels, with series bundling, AI translation and read-aloud."
+        },
+        "description": {
+          "zh": "提供小说下载、Pixiv 小说 API、计划任务小说执行、翻译、合订、AI 听书协作、小说画廊与阅读页。",
+          "en": "Provides novel downloading, Pixiv novel APIs, scheduled novel execution, translation, merge, AI narration collaboration, the novel gallery, and the reader page."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "gallery",
+        "tags": [
+          "gallery",
+          "novel",
+          "metadata",
+          "reader"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0-nightly.20260825.108.1",
+        "updatedTime": "2026-08-25T19:19:44Z",
+        "iconToken": "book",
+        "colorToken": "amber",
+        "recommended": true,
+        "officialRequired": false,
+        "defaultInstalled": true
+      },
+      "packages": [
+        {
+          "version": "1.0.0-nightly.20260825.108.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/novel-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-novel-1.0.0-nightly.20260825.108.1.jar",
+          "expectedSizeBytes": 674502,
+          "sha256": "7817a52ccba9172091f201291bfc8fc1a4876106e22381c4270036e183085983",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "yji0J4HjND9S5keV8ekgktKiiaTIgU4fuh7lVIWzaFTh7+J57Fi/6h1sitZoBZ9nXFGHp2N1Nyhqx2E9LwWbBQ=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/novel-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-novel-1.0.0-nightly.20260825.108.1.jar.sig",
+          "requiredSdk": "1.0",
+          "requiredCoreApi": "1.0",
+          "dependencies": [],
+          "releasedTime": "2026-08-25T19:19:44Z",
+          "changeNotes": [
+            "合并小说下载核心与小说展示层为官方可选插件"
+          ],
+          "channel": "nightly",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "notification",
+      "displayNamespace": "notification",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "通知",
+          "en": "Notifications"
+        },
+        "summary": {
+          "zh": "通知场景、级别与管理员站内信。",
+          "en": "Notification scenarios, severity, and the administrator inbox."
+        },
+        "description": {
+          "zh": "提供通知场景开关、中性通知级别与管理员站内信；邮件和推送插件依赖它共享通知语义。",
+          "en": "Provides notification scenario toggles, neutral severity, and the administrator inbox; mail and push plugins depend on it for shared notification semantics."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "dependency",
+        "tags": [
+          "notification",
+          "inbox",
+          "scenario",
+          "configuration"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0-nightly.20260825.108.1",
+        "updatedTime": "2026-08-25T19:20:02Z",
+        "iconToken": "bell",
+        "colorToken": "teal",
+        "recommended": true,
+        "officialRequired": false,
+        "defaultInstalled": true
+      },
+      "packages": [
+        {
+          "version": "1.0.0-nightly.20260825.108.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/notification-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-notification-1.0.0-nightly.20260825.108.1.jar",
+          "expectedSizeBytes": 101608,
+          "sha256": "2f608c4ca790f5887f8c0862b8a1a0394611d8003baa865384183be497cabc3d",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "KoQiAkYW40Qx0bgmJsl2p8DAdUPz9CB1lnzNKsOF8EAYCSE5GAtqeSQ6SUifLBo5FuGeU+nzBWFAKnlmrsjVCg=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/notification-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-notification-1.0.0-nightly.20260825.108.1.jar.sig",
+          "requiredSdk": "1.0",
+          "requiredCoreApi": "1.0",
+          "dependencies": [],
+          "releasedTime": "2026-08-25T19:20:02Z",
+          "changeNotes": [
+            "新增管理员站内信入口、分类消息与详情页"
+          ],
+          "channel": "nightly",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "multi-mode-decision-survey",
+      "displayNamespace": "multi-mode-decision-survey",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "多人模式去留调查",
+          "en": "Multi-user Mode Decision Survey"
+        },
+        "summary": {
+          "zh": "通过管理员站内信收集是否保留多人模式的意见。",
+          "en": "Collects feedback on whether multi-user mode should be retained through the administrator inbox."
+        },
+        "description": {
+          "zh": "通过管理员站内信收集多人模式保留意愿；调查参数与问卷语义由本插件自持。",
+          "en": "Collects feedback on retaining multi-user mode through the administrator inbox; this plugin owns the survey parameters and semantics."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "utility",
+        "tags": [
+          "survey",
+          "multi-mode",
+          "inbox",
+          "posthog"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0-nightly.20260825.108.1",
+        "updatedTime": "2026-08-25T19:20:18Z",
+        "iconToken": "users",
+        "colorToken": "amber",
+        "recommended": true,
+        "officialRequired": false,
+        "defaultInstalled": true
+      },
+      "packages": [
+        {
+          "version": "1.0.0-nightly.20260825.108.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/multi-mode-decision-survey-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-multi-mode-decision-survey-1.0.0-nightly.20260825.108.1.jar",
+          "expectedSizeBytes": 25744,
+          "sha256": "c7757c41286cbdfcb4fdfdff5fd1072361992b1f8b35bf70d7d5307961662650",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "k/JlWr3aPRPvY8lcXthJQ350VM4iDxtfqfwD7E+u7pSVpmkBiF5DmV6AclpbajBq7+JxOC7jNEuww0O1WghfDQ=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/multi-mode-decision-survey-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-multi-mode-decision-survey-1.0.0-nightly.20260825.108.1.jar.sig",
+          "requiredSdk": "1.0",
+          "requiredCoreApi": "1.0",
+          "dependencies": [
+            "posthog@1.0",
+            "notification@1.0"
+          ],
+          "releasedTime": "2026-08-25T19:20:18Z",
+          "changeNotes": [
+            "新增多人模式去留调查站内信"
+          ],
+          "channel": "nightly",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "push",
+      "displayNamespace": "push",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "推送通知",
+          "en": "Push notifications"
+        },
+        "summary": {
+          "zh": "计划任务告警使用的多通道推送通知。",
+          "en": "Push notification channels for scheduled task alerts."
+        },
+        "description": {
+          "zh": "提供 Webhook、Telegram、Server 酱、PushPlus、企业微信、飞书、钉钉、Bark 等推送渠道。",
+          "en": "Adds Webhook, Telegram, ServerChan, PushPlus, WeCom, Feishu, DingTalk, and Bark push channels."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "notify",
+        "tags": [
+          "push",
+          "notification",
+          "schedule"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0-nightly.20260825.108.1",
+        "updatedTime": "2026-08-25T19:20:39Z",
+        "iconToken": "bell",
+        "colorToken": "blue",
+        "recommended": true,
+        "officialRequired": false,
+        "defaultInstalled": true
+      },
+      "packages": [
+        {
+          "version": "1.0.0-nightly.20260825.108.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/push-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-push-1.0.0-nightly.20260825.108.1.jar",
+          "expectedSizeBytes": 149909,
+          "sha256": "f725465aff241f69d17088fda298477d5d59fca0107b59814b894901f5d79284",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "AUgfSsGVXtkvoM4Y+55U/89Uw7YDtzaaWx7H2pcHPPhxFVqps3atSVt4vt/SzH5IwYtv/BOpQm+VYV2A0Xr8DA=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/push-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-push-1.0.0-nightly.20260825.108.1.jar.sig",
+          "requiredSdk": "1.0",
+          "requiredCoreApi": "1.0",
+          "dependencies": [
+            "notification@1.0"
+          ],
+          "releasedTime": "2026-08-25T19:20:39Z",
+          "changeNotes": [
+            "首个外置版本"
+          ],
+          "channel": "nightly",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "mail",
+      "displayNamespace": "mail",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "邮件通知",
+          "en": "Mail notifications"
+        },
+        "summary": {
+          "zh": "SMTP 邮件通知发送与模板。",
+          "en": "SMTP mail notification delivery and templates."
+        },
+        "description": {
+          "zh": "提供 SMTP 邮件通知发送、服务商预设、测试邮件与计划任务通知模板。",
+          "en": "Adds SMTP mail delivery, provider presets, test mail, and scheduled-task notification templates."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "notify",
+        "tags": [
+          "mail",
+          "smtp",
+          "notification"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0-nightly.20260825.108.1",
+        "updatedTime": "2026-08-25T19:20:58Z",
+        "iconToken": "mail",
+        "colorToken": "green",
+        "recommended": true,
+        "officialRequired": false,
+        "defaultInstalled": true
+      },
+      "packages": [
+        {
+          "version": "1.0.0-nightly.20260825.108.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/mail-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-mail-1.0.0-nightly.20260825.108.1.jar",
+          "expectedSizeBytes": 990738,
+          "sha256": "2c209da5ef670e9e642f6ebc3ceb487e88893312f6c641b394e63d0cd03ae906",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "X83FUsHNBQY2DJkDVw3riFNomMqfif7Op0j0+blWHafAdUHCI0ipVPN8erNdQnU6fm5JxuYbpvyzWSFdx9hHCg=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/mail-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-mail-1.0.0-nightly.20260825.108.1.jar.sig",
+          "requiredSdk": "1.0",
+          "requiredCoreApi": "1.0",
+          "dependencies": [
+            "notification@1.0"
+          ],
+          "releasedTime": "2026-08-25T19:20:58Z",
+          "changeNotes": [
+            "首个外置版本"
+          ],
+          "channel": "nightly",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "tts",
+      "displayNamespace": "tts",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "TTS 朗读",
+          "en": "TTS Narration"
+        },
+        "summary": {
+          "zh": "在线 TTS 与小说朗读语音引擎。",
+          "en": "Online TTS and narration voice engines."
+        },
+        "description": {
+          "zh": "提供 Edge TTS 听书入口，以及 VoxCPM、MiMo、CosyVoice、Fish Audio、MiniMax、ElevenLabs、Qwen、Doubao 等朗读引擎。",
+          "en": "Adds the Edge TTS listening entry and narration engines including VoxCPM, MiMo, CosyVoice, Fish Audio, MiniMax, ElevenLabs, Qwen, and Doubao."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "utility",
+        "tags": [
+          "tts",
+          "narration",
+          "novel"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0-nightly.20260825.108.1",
+        "updatedTime": "2026-08-25T19:21:17Z",
+        "iconToken": "audio-lines",
+        "colorToken": "amber",
+        "recommended": true,
+        "officialRequired": false,
+        "defaultInstalled": true
+      },
+      "packages": [
+        {
+          "version": "1.0.0-nightly.20260825.108.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/tts-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-tts-1.0.0-nightly.20260825.108.1.jar",
+          "expectedSizeBytes": 233161,
+          "sha256": "68592eda4192dc9e104f2e0d55d9da432ac900879627ff5a51b8cfec57fcbec6",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "iLMfHJSetnthqFkx3O83IPc0gnJtSpRHdFnmBSYCnAY4aly6XVot/zUpk4PNY6ZGq44umtqYLxYu+xKEyfPoDg=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/tts-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-tts-1.0.0-nightly.20260825.108.1.jar.sig",
+          "requiredSdk": "1.0",
+          "requiredCoreApi": "1.0",
+          "dependencies": [],
+          "releasedTime": "2026-08-25T19:21:17Z",
+          "changeNotes": [
+            "首个外置版本"
+          ],
+          "channel": "nightly",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "ai",
+      "displayNamespace": "ai",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "AI 翻译",
+          "en": "AI Translation"
+        },
+        "summary": {
+          "zh": "OpenAI 兼容聊天与自动翻译能力。",
+          "en": "OpenAI-compatible chat and translation capabilities."
+        },
+        "description": {
+          "zh": "提供 OpenAI 兼容模型调用、连接测试、小说自动翻译、系列翻译与听书剧本分析的 AI 能力。",
+          "en": "Adds OpenAI-compatible model calls, connectivity tests, novel auto-translation, series translation, and AI narration analysis."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "translate",
+        "tags": [
+          "ai",
+          "translation",
+          "openai-compatible"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0-nightly.20260825.108.1",
+        "updatedTime": "2026-08-25T19:21:35Z",
+        "iconToken": "sparkles",
+        "colorToken": "teal",
+        "recommended": true,
+        "officialRequired": false,
+        "defaultInstalled": true
+      },
+      "packages": [
+        {
+          "version": "1.0.0-nightly.20260825.108.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/ai-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-ai-1.0.0-nightly.20260825.108.1.jar",
+          "expectedSizeBytes": 88026,
+          "sha256": "4bce62260118bdf704019fde9645957f6c062c8eadd62765beffa4e8570ea0b4",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "FOv2j+mJOTIXoPB4EWssQCudGiQA0Wn33Xb/VwOhxV5ZffdfT5unf7kNXaM6hLLX0RlJuVQCtUCiRBE51CU1Cg=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/ai-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-ai-1.0.0-nightly.20260825.108.1.jar.sig",
+          "requiredSdk": "1.0",
+          "requiredCoreApi": "1.0",
+          "dependencies": [],
+          "releasedTime": "2026-08-25T19:21:35Z",
+          "changeNotes": [
+            "首个外置版本"
+          ],
+          "channel": "nightly",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "douyin",
+      "displayNamespace": "douyin",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "抖音",
+          "en": "Douyin"
+        },
+        "summary": {
+          "zh": "下载、浏览并查看已保存的抖音视频、图文与实况作品。",
+          "en": "Download, browse, and inspect saved Douyin videos, image posts, and live photos."
+        },
+        "description": {
+          "zh": "提供抖音视频、图文与实况作品的链接解析、批量与计划下载、本地画廊和作品详情。",
+          "en": "Adds link parsing, batch and scheduled downloads, a local gallery, and work details for Douyin videos, image posts, and live photos."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "download-type",
+        "tags": [
+          "douyin",
+          "download",
+          "video",
+          "image",
+          "schedule"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0-nightly.20260825.108.1",
+        "updatedTime": "2026-08-25T19:21:57Z",
+        "iconToken": "video",
+        "colorToken": "red",
+        "recommended": false,
+        "officialRequired": false,
+        "defaultInstalled": false
+      },
+      "packages": [
+        {
+          "version": "1.0.0-nightly.20260825.108.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/douyin-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-douyin-1.0.0-nightly.20260825.108.1.jar",
+          "expectedSizeBytes": 391689,
+          "sha256": "d0100aa01246cf3aab6b1711da75f938c1b965186cfbde13c237a6a90298b96a",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "2KtcfsAX8xNUKw+C0RAfgId/g02+IHA2+8kp4pxTFJPFUlQkzfUlm7nP0Hn/Pim0CFUKVg2ghepO8TmzvFoQBA=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/douyin-v1.0.0-nightly.20260825.108.1/pixivdownload-plugin-douyin-1.0.0-nightly.20260825.108.1.jar.sig",
+          "requiredSdk": "1.0",
+          "requiredCoreApi": "1.0",
+          "dependencies": [],
+          "releasedTime": "2026-08-25T19:21:57Z",
+          "changeNotes": [
+            "首个外置版本"
+          ],
+          "channel": "nightly",
+          "deprecated": false
+        }
+      ]
+    }
+  ]
+}
