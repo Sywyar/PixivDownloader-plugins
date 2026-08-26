@@ -41,7 +41,7 @@ PixivDownloader 官方**外置插件**的分发仓库。这里存放两样东西
 
 主仓库工作流(`publish-plugins`):构建 reactor → `assemble-plugin-distribution.ps1` 产出瘦身 jar + `sha256` → 把官方可选
 插件逐版本发布到本仓库的 Release → `generate-market-manifest.ps1` 生成 `manifest.json` 并提交进本仓库 code 区。跨仓库
-发布使用具备本仓库 **Contents: 读写** 权限的细粒度 PAT(存为主仓库 Actions secret `PLUGINS_REPO_TOKEN`)。
+发布使用具备本仓库 **Contents: 读写** 权限的细粒度 PAT（存为主仓库 `release` Environment secret `CROSS_REPO_RELEASE_TOKEN`）。
 
 ## 许可
 
