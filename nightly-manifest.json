@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedTime": "2026-08-29T02:12:40Z",
+  "generatedTime": "2026-08-29T21:24:48Z",
   "entries": [
     {
       "pluginId": "download-workbench",
@@ -35,8 +35,8 @@
         "downloadCount": 0,
         "previousDownloadCount": 0,
         "totalDownloadCount": 0,
-        "latestVersion": "1.0.0-nightly.20260829.112.1",
-        "updatedTime": "2026-08-29T02:12:40Z",
+        "latestVersion": "1.0.0-nightly.20260829.113.1",
+        "updatedTime": "2026-08-29T21:24:48Z",
         "iconToken": "download",
         "colorToken": "pixiv",
         "recommended": true,
@@ -45,23 +45,23 @@
       },
       "packages": [
         {
-          "version": "1.0.0-nightly.20260829.112.1",
-          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/download-workbench-nightly/pixivdownload-plugin-download-workbench-1.0.0-nightly.20260829.112.1.jar",
+          "version": "1.0.0-nightly.20260829.113.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/download-workbench-nightly/pixivdownload-plugin-download-workbench-1.0.0-nightly.20260829.113.1.jar",
           "expectedSizeBytes": 1516173,
-          "sha256": "40aecf947ca99df9fbf9b3483b1779d2248e780f9c26bfa7f030c5ed26336a90",
+          "sha256": "2bc845a6b76926fe69153b57c6fd94d02890fcf1882b584d67f195b9302605b5",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "8aahJLzFDBoAiBsAHNUlA49Oglzd6nXLMWhxJfzmXSAOEHV8DGikRKhRlTgvgFFYgjDxhO/Fm0IdKM3sHVkMCQ=="
+            "value": "aS36GuA2tM8tG7foviZl0DWcLudJjgZ0qqr+cbYN2UIZuiLvkhBn2IyzuTxxI9eLeCPiC7vSOv+VYplpLRyUBQ=="
           },
-          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/download-workbench-nightly/pixivdownload-plugin-download-workbench-1.0.0-nightly.20260829.112.1.jar.sig",
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/download-workbench-nightly/pixivdownload-plugin-download-workbench-1.0.0-nightly.20260829.113.1.jar.sig",
           "requiredSdk": "1.0",
           "requiredCoreApi": "1.0",
           "dependencies": [
             "posthog?@1.0"
           ],
-          "releasedTime": "2026-08-29T02:12:40Z",
+          "releasedTime": "2026-08-29T21:24:48Z",
           "changeNotes": [
             "下载工作台从核心壳外置为官方必需插件"
           ],
@@ -102,8 +102,8 @@
         "downloadCount": 0,
         "previousDownloadCount": 0,
         "totalDownloadCount": 0,
-        "latestVersion": "1.0.0-nightly.20260829.112.1",
-        "updatedTime": "2026-08-29T02:12:40Z",
+        "latestVersion": "1.0.0-nightly.20260829.113.1",
+        "updatedTime": "2026-08-29T21:24:48Z",
         "iconToken": "palette",
         "colorToken": "violet",
         "recommended": false,
@@ -112,21 +112,21 @@
       },
       "packages": [
         {
-          "version": "1.0.0-nightly.20260829.112.1",
-          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-compose-nightly/pixivdownload-plugin-gui-compose-1.0.0-nightly.20260829.112.1.jar",
+          "version": "1.0.0-nightly.20260829.113.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-compose-nightly/pixivdownload-plugin-gui-compose-1.0.0-nightly.20260829.113.1.jar",
           "expectedSizeBytes": 129952327,
-          "sha256": "f96cb567948658ffe1ea50097f93401e054ad360927527d9f25e5f7acccadb9d",
+          "sha256": "f54c219948dd3ca484f7857c2b44d2099758d1a3d3d855c297fee3b8baa9fc53",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "tJRImyQ+3e2xApLB/ezGigydwJY6nylrx8yR9OnBO1mPxdYHornEsBM/9QkfE6LvHQxO1Ulrm3VCOki7lQa3Cg=="
+            "value": "jmUsmg5WKYSRO/0SYgaBY4XUovhXHBds8KbIsNnjxSyjcAp8C5cHDwMjYBuFvfoAQlciRz/4CR14rUGt8LGrBw=="
           },
-          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-compose-nightly/pixivdownload-plugin-gui-compose-1.0.0-nightly.20260829.112.1.jar.sig",
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-compose-nightly/pixivdownload-plugin-gui-compose-1.0.0-nightly.20260829.113.1.jar.sig",
           "requiredSdk": "1.0",
           "requiredCoreApi": "1.0",
           "dependencies": [],
-          "releasedTime": "2026-08-29T02:12:40Z",
+          "releasedTime": "2026-08-29T21:24:48Z",
           "changeNotes": [
             "新增 Compose Multiplatform 桌面 UI 提供者"
           ],
@@ -166,8 +166,8 @@
         "downloadCount": 0,
         "previousDownloadCount": 0,
         "totalDownloadCount": 0,
-        "latestVersion": "1.0.0-nightly.20260829.112.1",
-        "updatedTime": "2026-08-29T02:12:40Z",
+        "latestVersion": "1.0.0-nightly.20260829.113.1",
+        "updatedTime": "2026-08-29T21:24:48Z",
         "iconToken": "palette",
         "colorToken": "blue",
         "recommended": true,
@@ -176,21 +176,21 @@
       },
       "packages": [
         {
-          "version": "1.0.0-nightly.20260829.112.1",
-          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-swing-nightly/pixivdownload-plugin-gui-swing-1.0.0-nightly.20260829.112.1.jar",
+          "version": "1.0.0-nightly.20260829.113.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-swing-nightly/pixivdownload-plugin-gui-swing-1.0.0-nightly.20260829.113.1.jar",
           "expectedSizeBytes": 5414350,
-          "sha256": "9140171d7b9d9091fd57df9da4f540dfd062d6c09eea49a0c827a3292bebc359",
+          "sha256": "8b469e92e23bb907d26552c2f4df3bb51a2ed5a1f811c7d50ad3e1bd8de77975",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "qzY7B9J6aMhkLfR2qnS2AQyISZaYl03GmZu4+T/VTFp7u/GXFzIWyE5bxvVvLEOuhWAb243DNTOo+jiB5RvnCA=="
+            "value": "03ZoUiVLgn1VONqNrDfQh7KEhOTa18F/16OexlEUA7iElunz0dfLq/ZJo+Y2JMiOxXTSeVB6qWEzttirHti+Bw=="
           },
-          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-swing-nightly/pixivdownload-plugin-gui-swing-1.0.0-nightly.20260829.112.1.jar.sig",
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-swing-nightly/pixivdownload-plugin-gui-swing-1.0.0-nightly.20260829.113.1.jar.sig",
           "requiredSdk": "1.0",
           "requiredCoreApi": "1.0",
           "dependencies": [],
-          "releasedTime": "2026-08-29T02:12:40Z",
+          "releasedTime": "2026-08-29T21:24:48Z",
           "changeNotes": [
             "首个外置版本"
           ],
@@ -231,8 +231,8 @@
         "downloadCount": 0,
         "previousDownloadCount": 0,
         "totalDownloadCount": 0,
-        "latestVersion": "1.0.0-nightly.20260829.112.1",
-        "updatedTime": "2026-08-29T02:12:40Z",
+        "latestVersion": "1.0.0-nightly.20260829.113.1",
+        "updatedTime": "2026-08-29T21:24:48Z",
         "iconToken": "screwdriver-wrench",
         "colorToken": "purple",
         "recommended": true,
@@ -241,21 +241,21 @@
       },
       "packages": [
         {
-          "version": "1.0.0-nightly.20260829.112.1",
-          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gallery-tools-nightly/pixivdownload-plugin-gallery-tools-1.0.0-nightly.20260829.112.1.jar",
-          "expectedSizeBytes": 76823,
-          "sha256": "ee364a14f1ec5334899b1c3909a13f737c332791659d838973054c1cd3ebc02a",
+          "version": "1.0.0-nightly.20260829.113.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gallery-tools-nightly/pixivdownload-plugin-gallery-tools-1.0.0-nightly.20260829.113.1.jar",
+          "expectedSizeBytes": 76824,
+          "sha256": "6cb554cd98d54cddd5f058f3168fcc0ebea848519c8e0c2e153d612ddb9e38f2",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "9djw6XGHHURzoX6qqmAKaQ1chrVWknP46nvM/LEOgvE3H4tZGm1V/CFdIaWo6LUltlFLVg2rurD3nyIno0LjBQ=="
+            "value": "Hs5ExDK2XEOrGRWWjmcr/jzr8n1bfdJWHUglpfMkBMHyAhDaNz4RgKl+TzUYaKHqiiwwak6skxM5curd8IWMDw=="
           },
-          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gallery-tools-nightly/pixivdownload-plugin-gallery-tools-1.0.0-nightly.20260829.112.1.jar.sig",
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gallery-tools-nightly/pixivdownload-plugin-gallery-tools-1.0.0-nightly.20260829.113.1.jar.sig",
           "requiredSdk": "1.0",
           "requiredCoreApi": "1.0",
           "dependencies": [],
-          "releasedTime": "2026-08-29T02:12:40Z",
+          "releasedTime": "2026-08-29T21:24:48Z",
           "changeNotes": [
             "首个外置版本"
           ],
@@ -296,8 +296,8 @@
         "downloadCount": 0,
         "previousDownloadCount": 0,
         "totalDownloadCount": 0,
-        "latestVersion": "1.0.0-nightly.20260829.112.1",
-        "updatedTime": "2026-08-29T02:12:40Z",
+        "latestVersion": "1.0.0-nightly.20260829.113.1",
+        "updatedTime": "2026-08-29T21:24:48Z",
         "iconToken": "puzzle",
         "colorToken": "purple",
         "recommended": true,
@@ -306,21 +306,21 @@
       },
       "packages": [
         {
-          "version": "1.0.0-nightly.20260829.112.1",
-          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/posthog-nightly/pixivdownload-plugin-posthog-1.0.0-nightly.20260829.112.1.jar",
-          "expectedSizeBytes": 164852,
-          "sha256": "b7be68f3a928202d0d3197bc06e38375ded08214e3cd62d39c39ea53b4bba4a5",
+          "version": "1.0.0-nightly.20260829.113.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/posthog-nightly/pixivdownload-plugin-posthog-1.0.0-nightly.20260829.113.1.jar",
+          "expectedSizeBytes": 164853,
+          "sha256": "673446ce20e51a4abb2a5d6893710d0036c8bb64e171a5a296cc0336961df982",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "egTHiWPYvmofdScTEq5NRc7F5L0WKavvwQw9JoohDqZrnpaSFdTqtFFsRA/JSHqpQsfIm3XtRfH5JZ3UCR/ZBA=="
+            "value": "mCRatv6JWkirftB4Vr54hIR5kS5ktMbFk1/cArGlPPSKcEWI8dURq1JW1PucToLR0XLCJ/Gc9ypyvvgRSaejDA=="
           },
-          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/posthog-nightly/pixivdownload-plugin-posthog-1.0.0-nightly.20260829.112.1.jar.sig",
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/posthog-nightly/pixivdownload-plugin-posthog-1.0.0-nightly.20260829.113.1.jar.sig",
           "requiredSdk": "1.0",
           "requiredCoreApi": "1.0",
           "dependencies": [],
-          "releasedTime": "2026-08-29T02:12:40Z",
+          "releasedTime": "2026-08-29T21:24:48Z",
           "changeNotes": [
             "首个外置版本"
           ],
@@ -361,8 +361,8 @@
         "downloadCount": 0,
         "previousDownloadCount": 0,
         "totalDownloadCount": 0,
-        "latestVersion": "1.0.0-nightly.20260829.112.1",
-        "updatedTime": "2026-08-29T02:12:40Z",
+        "latestVersion": "1.0.0-nightly.20260829.113.1",
+        "updatedTime": "2026-08-29T21:24:48Z",
         "iconToken": "gallery",
         "colorToken": "green",
         "recommended": true,
@@ -371,21 +371,21 @@
       },
       "packages": [
         {
-          "version": "1.0.0-nightly.20260829.112.1",
-          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gallery-nightly/pixivdownload-plugin-gallery-1.0.0-nightly.20260829.112.1.jar",
+          "version": "1.0.0-nightly.20260829.113.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gallery-nightly/pixivdownload-plugin-gallery-1.0.0-nightly.20260829.113.1.jar",
           "expectedSizeBytes": 207135,
-          "sha256": "0c2fc6a2a1aa54a1f4bdd59b0b028b1a7a3e06fe0a804efc8214a95019ea23ae",
+          "sha256": "53ea9284b9532818b6fffc1354b9bfb62967bad75813492e095f7bdf766a84f3",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "RILTaDLeLSj0oAyIymyQYe0LImlZhCpaNaBY5eMN+qXdkXPphtzwfaP/MhhK/SzZUzkbRRtrv8yx/ZndJTOYCg=="
+            "value": "qWIlUrCqvrAfLa0zMuHVnvIMIbEfXg5ZIsZvfvgJV+FaAVzO3A7zLiRdVV5tBvyf+W6ODaU739ZuTWqRHOInBw=="
           },
-          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gallery-nightly/pixivdownload-plugin-gallery-1.0.0-nightly.20260829.112.1.jar.sig",
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gallery-nightly/pixivdownload-plugin-gallery-1.0.0-nightly.20260829.113.1.jar.sig",
           "requiredSdk": "1.0",
           "requiredCoreApi": "1.0",
           "dependencies": [],
-          "releasedTime": "2026-08-29T02:12:40Z",
+          "releasedTime": "2026-08-29T21:24:48Z",
           "changeNotes": [
             "首个外置版本"
           ],
@@ -426,8 +426,8 @@
         "downloadCount": 0,
         "previousDownloadCount": 0,
         "totalDownloadCount": 0,
-        "latestVersion": "1.0.0-nightly.20260829.112.1",
-        "updatedTime": "2026-08-29T02:12:40Z",
+        "latestVersion": "1.0.0-nightly.20260829.113.1",
+        "updatedTime": "2026-08-29T21:24:48Z",
         "iconToken": "book",
         "colorToken": "amber",
         "recommended": true,
@@ -436,21 +436,21 @@
       },
       "packages": [
         {
-          "version": "1.0.0-nightly.20260829.112.1",
-          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/novel-nightly/pixivdownload-plugin-novel-1.0.0-nightly.20260829.112.1.jar",
+          "version": "1.0.0-nightly.20260829.113.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/novel-nightly/pixivdownload-plugin-novel-1.0.0-nightly.20260829.113.1.jar",
           "expectedSizeBytes": 689024,
-          "sha256": "5b39faa6bc4fe2f5ced234d09615e5b7815b702c4ac6d371a85e559cddd6f78a",
+          "sha256": "1c8a0ffe5e997cee3477ac02cff01e262ac69facc3b6f4a7271bc72f3af1ac2a",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "C1bDUZ/JtaVpFnQjsgHQVKA44niT5aryjwgalGd3zFpCT31lcLJ071qohRrDC3P0ac/BWSAhQkvilOUq+JQ/Bg=="
+            "value": "YmpkQGe/iTv83klzox3xqXaEmaLUq83ou8Bnkf7KffnaPtTKrRWK0tbEu9EHAHIuoXhCGc+0tsTq1U0kp4OaCg=="
           },
-          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/novel-nightly/pixivdownload-plugin-novel-1.0.0-nightly.20260829.112.1.jar.sig",
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/novel-nightly/pixivdownload-plugin-novel-1.0.0-nightly.20260829.113.1.jar.sig",
           "requiredSdk": "1.0",
           "requiredCoreApi": "1.0",
           "dependencies": [],
-          "releasedTime": "2026-08-29T02:12:40Z",
+          "releasedTime": "2026-08-29T21:24:48Z",
           "changeNotes": [
             "合并小说下载核心与小说展示层为官方可选插件"
           ],
@@ -491,8 +491,8 @@
         "downloadCount": 0,
         "previousDownloadCount": 0,
         "totalDownloadCount": 0,
-        "latestVersion": "1.0.0-nightly.20260829.112.1",
-        "updatedTime": "2026-08-29T02:12:40Z",
+        "latestVersion": "1.0.0-nightly.20260829.113.1",
+        "updatedTime": "2026-08-29T21:24:48Z",
         "iconToken": "bell",
         "colorToken": "teal",
         "recommended": true,
@@ -501,21 +501,21 @@
       },
       "packages": [
         {
-          "version": "1.0.0-nightly.20260829.112.1",
-          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/notification-nightly/pixivdownload-plugin-notification-1.0.0-nightly.20260829.112.1.jar",
-          "expectedSizeBytes": 101685,
-          "sha256": "adffdaf4161040e94f9762dbd04630c3fb0186fe2bb4ca110c90e7a2d0e2ee17",
+          "version": "1.0.0-nightly.20260829.113.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/notification-nightly/pixivdownload-plugin-notification-1.0.0-nightly.20260829.113.1.jar",
+          "expectedSizeBytes": 101686,
+          "sha256": "de91ad3d7427ab29e5d763bbda00da931f25924702dad98a98b8bc905edbcca2",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "NgTVVNX4qQM8y3u3cZRunp7e9VeELNrsEJfsoTXbB0c6ilYWwb9CPGA45EqTc9V935tjt5k05htTXrDjhUNmBw=="
+            "value": "JBqsLh96FcPL0+s4s43R1tmPTMdyTwCbvAiVJJDFwFvGIGVyvIjs93DZZPQYUcuvV0ndSJKq0E1rExC2sV7yDA=="
           },
-          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/notification-nightly/pixivdownload-plugin-notification-1.0.0-nightly.20260829.112.1.jar.sig",
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/notification-nightly/pixivdownload-plugin-notification-1.0.0-nightly.20260829.113.1.jar.sig",
           "requiredSdk": "1.0",
           "requiredCoreApi": "1.0",
           "dependencies": [],
-          "releasedTime": "2026-08-29T02:12:40Z",
+          "releasedTime": "2026-08-29T21:24:48Z",
           "changeNotes": [
             "新增管理员站内信入口、分类消息与详情页"
           ],
@@ -556,8 +556,8 @@
         "downloadCount": 0,
         "previousDownloadCount": 0,
         "totalDownloadCount": 0,
-        "latestVersion": "1.0.0-nightly.20260829.112.1",
-        "updatedTime": "2026-08-29T02:12:40Z",
+        "latestVersion": "1.0.0-nightly.20260829.113.1",
+        "updatedTime": "2026-08-29T21:24:48Z",
         "iconToken": "users",
         "colorToken": "amber",
         "recommended": true,
@@ -566,24 +566,24 @@
       },
       "packages": [
         {
-          "version": "1.0.0-nightly.20260829.112.1",
-          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/multi-mode-decision-survey-nightly/pixivdownload-plugin-multi-mode-decision-survey-1.0.0-nightly.20260829.112.1.jar",
+          "version": "1.0.0-nightly.20260829.113.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/multi-mode-decision-survey-nightly/pixivdownload-plugin-multi-mode-decision-survey-1.0.0-nightly.20260829.113.1.jar",
           "expectedSizeBytes": 25769,
-          "sha256": "3597e6248400aec213bb995b2263a4c1be965d7898f68fbb1827fc3b3c4c669e",
+          "sha256": "0f6b1586dfada602a6d2bede20fc1c6647a5d29438d3400df3cfcef9437255c8",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "diBIlqzzOkW8wGn1eAfx8WJLkRoqU5EAyy+l0s7f8uYVT55NH9va69JSDDtXmQOkg+17Eu9W/k1WSkb46zEOCw=="
+            "value": "8Cjw6LGMs0/wRKOTTuv6QVqRYsqd3NMiiNlreWOfhDHeUk6DRfehAKnvezoXvBDdM8XTztG4oYFybEnpuchpDQ=="
           },
-          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/multi-mode-decision-survey-nightly/pixivdownload-plugin-multi-mode-decision-survey-1.0.0-nightly.20260829.112.1.jar.sig",
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/multi-mode-decision-survey-nightly/pixivdownload-plugin-multi-mode-decision-survey-1.0.0-nightly.20260829.113.1.jar.sig",
           "requiredSdk": "1.0",
           "requiredCoreApi": "1.0",
           "dependencies": [
             "posthog@1.0",
             "notification@1.0"
           ],
-          "releasedTime": "2026-08-29T02:12:40Z",
+          "releasedTime": "2026-08-29T21:24:48Z",
           "changeNotes": [
             "新增多人模式去留调查站内信"
           ],
@@ -623,8 +623,8 @@
         "downloadCount": 0,
         "previousDownloadCount": 0,
         "totalDownloadCount": 0,
-        "latestVersion": "1.0.0-nightly.20260829.112.1",
-        "updatedTime": "2026-08-29T02:12:40Z",
+        "latestVersion": "1.0.0-nightly.20260829.113.1",
+        "updatedTime": "2026-08-29T21:24:48Z",
         "iconToken": "bell",
         "colorToken": "blue",
         "recommended": true,
@@ -633,23 +633,23 @@
       },
       "packages": [
         {
-          "version": "1.0.0-nightly.20260829.112.1",
-          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/push-nightly/pixivdownload-plugin-push-1.0.0-nightly.20260829.112.1.jar",
+          "version": "1.0.0-nightly.20260829.113.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/push-nightly/pixivdownload-plugin-push-1.0.0-nightly.20260829.113.1.jar",
           "expectedSizeBytes": 149977,
-          "sha256": "3ea4222705bfd983f6b93227695e07aced47ff5443e70ea7ffbf9a2ea8fcc35f",
+          "sha256": "59994c9d76c00beb0d0fcad5e788358d5ae672ee45e1f6a45aa89e00ad8ff7e8",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "L2T1EvINcV3jKTHzxVEJkQDrPXWF40t5pA1LnebSqN0vyIpnqyxfMXoMJ56cmFr19aeyFsiciaUUkqhXRjcqBg=="
+            "value": "GzSjlMqP/f50NHJIdOFXR8tBesK6Ujk08QRR7NG/56R854CroF/NHASvVD02asfECB3bXxdbmw/t5hPUZu0tAg=="
           },
-          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/push-nightly/pixivdownload-plugin-push-1.0.0-nightly.20260829.112.1.jar.sig",
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/push-nightly/pixivdownload-plugin-push-1.0.0-nightly.20260829.113.1.jar.sig",
           "requiredSdk": "1.0",
           "requiredCoreApi": "1.0",
           "dependencies": [
             "notification@1.0"
           ],
-          "releasedTime": "2026-08-29T02:12:40Z",
+          "releasedTime": "2026-08-29T21:24:48Z",
           "changeNotes": [
             "首个外置版本"
           ],
@@ -689,8 +689,8 @@
         "downloadCount": 0,
         "previousDownloadCount": 0,
         "totalDownloadCount": 0,
-        "latestVersion": "1.0.0-nightly.20260829.112.1",
-        "updatedTime": "2026-08-29T02:12:40Z",
+        "latestVersion": "1.0.0-nightly.20260829.113.1",
+        "updatedTime": "2026-08-29T21:24:48Z",
         "iconToken": "mail",
         "colorToken": "green",
         "recommended": true,
@@ -699,23 +699,23 @@
       },
       "packages": [
         {
-          "version": "1.0.0-nightly.20260829.112.1",
-          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/mail-nightly/pixivdownload-plugin-mail-1.0.0-nightly.20260829.112.1.jar",
-          "expectedSizeBytes": 990804,
-          "sha256": "7fbc64a422571a43990750ac06cebc5d6c3f6fa31166daf212071e577ee537ac",
+          "version": "1.0.0-nightly.20260829.113.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/mail-nightly/pixivdownload-plugin-mail-1.0.0-nightly.20260829.113.1.jar",
+          "expectedSizeBytes": 990805,
+          "sha256": "3dc8e2e8969d33764459e182440b835f110c7e371904177ebb2ab8d239273412",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "MigONGm+UhPR9y1wM9QrNsVztL7ypv2bu5t26alSHn1A5JzpIIpqROkxCexePkYd44yodXZhWgfIy1+gK0CaCQ=="
+            "value": "9wQy6OaRVUibWh5sq49Ud8Fi7KAtATghqVzUA+doRWNVep98BtMDyif22C1cUBLUw5wtQOdghNK/z2xEfuo3Cw=="
           },
-          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/mail-nightly/pixivdownload-plugin-mail-1.0.0-nightly.20260829.112.1.jar.sig",
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/mail-nightly/pixivdownload-plugin-mail-1.0.0-nightly.20260829.113.1.jar.sig",
           "requiredSdk": "1.0",
           "requiredCoreApi": "1.0",
           "dependencies": [
             "notification@1.0"
           ],
-          "releasedTime": "2026-08-29T02:12:40Z",
+          "releasedTime": "2026-08-29T21:24:48Z",
           "changeNotes": [
             "首个外置版本"
           ],
@@ -755,8 +755,8 @@
         "downloadCount": 0,
         "previousDownloadCount": 0,
         "totalDownloadCount": 0,
-        "latestVersion": "1.0.0-nightly.20260829.112.1",
-        "updatedTime": "2026-08-29T02:12:40Z",
+        "latestVersion": "1.0.0-nightly.20260829.113.1",
+        "updatedTime": "2026-08-29T21:24:48Z",
         "iconToken": "audio-lines",
         "colorToken": "amber",
         "recommended": true,
@@ -765,21 +765,21 @@
       },
       "packages": [
         {
-          "version": "1.0.0-nightly.20260829.112.1",
-          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/tts-nightly/pixivdownload-plugin-tts-1.0.0-nightly.20260829.112.1.jar",
+          "version": "1.0.0-nightly.20260829.113.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/tts-nightly/pixivdownload-plugin-tts-1.0.0-nightly.20260829.113.1.jar",
           "expectedSizeBytes": 241881,
-          "sha256": "50bd9deb6b93a311e4646a8cc40e4d985d1ba2b35e4481c07df162b26f98fa16",
+          "sha256": "f1a192f8e121190f52c431f0c905b62b4ff1a5d021f47d9e6dced6f9560f712a",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "BRN4KzzZWkGvt0Ffzju41Jb6n5rckbqo+nzn4DxaqmFTWo5M+jXLkUo5MFXsuSgtGgtD9CPTdeGTTdgTBm/RBg=="
+            "value": "7ylqWrkk7u0ZNyYJl53LmWvwDnfQy5X2OMnc3lftPP6V0B6xIjCvh2ICxZsgBzN8e7SZLwgqa1NT0zW8syXxCg=="
           },
-          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/tts-nightly/pixivdownload-plugin-tts-1.0.0-nightly.20260829.112.1.jar.sig",
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/tts-nightly/pixivdownload-plugin-tts-1.0.0-nightly.20260829.113.1.jar.sig",
           "requiredSdk": "1.0",
           "requiredCoreApi": "1.0",
           "dependencies": [],
-          "releasedTime": "2026-08-29T02:12:40Z",
+          "releasedTime": "2026-08-29T21:24:48Z",
           "changeNotes": [
             "首个外置版本"
           ],
@@ -819,8 +819,8 @@
         "downloadCount": 0,
         "previousDownloadCount": 0,
         "totalDownloadCount": 0,
-        "latestVersion": "1.0.0-nightly.20260829.112.1",
-        "updatedTime": "2026-08-29T02:12:40Z",
+        "latestVersion": "1.0.0-nightly.20260829.113.1",
+        "updatedTime": "2026-08-29T21:24:48Z",
         "iconToken": "sparkles",
         "colorToken": "teal",
         "recommended": true,
@@ -829,21 +829,21 @@
       },
       "packages": [
         {
-          "version": "1.0.0-nightly.20260829.112.1",
-          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/ai-nightly/pixivdownload-plugin-ai-1.0.0-nightly.20260829.112.1.jar",
+          "version": "1.0.0-nightly.20260829.113.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/ai-nightly/pixivdownload-plugin-ai-1.0.0-nightly.20260829.113.1.jar",
           "expectedSizeBytes": 99254,
-          "sha256": "5e5e8f208c3051fa6def911de1d67e1088241e619e4ebc5bc75507bbdc60a837",
+          "sha256": "7ae2ecd71ea5fbe31dd1de53cb1de0bd6c2c3563567cf830426a10ac621e06de",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "obuiTvgvbUe8aT5fkWwiO1SZdtHfWgyQN/MGfNPvv8Uq9guWxR/diLJSzkBzinj0jdsw8Pm+3JowmlPpBh2kCQ=="
+            "value": "1kFRPX/T/KCAOIlt2h6DqtGf9l4v28WhHuLN5BIC3Baql/pUcREmQ/fiKZj8eBOJvjBdJqPe65OxbU4ztJhDDw=="
           },
-          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/ai-nightly/pixivdownload-plugin-ai-1.0.0-nightly.20260829.112.1.jar.sig",
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/ai-nightly/pixivdownload-plugin-ai-1.0.0-nightly.20260829.113.1.jar.sig",
           "requiredSdk": "1.0",
           "requiredCoreApi": "1.0",
           "dependencies": [],
-          "releasedTime": "2026-08-29T02:12:40Z",
+          "releasedTime": "2026-08-29T21:24:48Z",
           "changeNotes": [
             "首个外置版本"
           ],
@@ -885,8 +885,8 @@
         "downloadCount": 0,
         "previousDownloadCount": 0,
         "totalDownloadCount": 0,
-        "latestVersion": "1.0.0-nightly.20260829.112.1",
-        "updatedTime": "2026-08-29T02:12:40Z",
+        "latestVersion": "1.0.0-nightly.20260829.113.1",
+        "updatedTime": "2026-08-29T21:24:48Z",
         "iconToken": "video",
         "colorToken": "red",
         "recommended": false,
@@ -895,21 +895,21 @@
       },
       "packages": [
         {
-          "version": "1.0.0-nightly.20260829.112.1",
-          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/douyin-nightly/pixivdownload-plugin-douyin-1.0.0-nightly.20260829.112.1.jar",
+          "version": "1.0.0-nightly.20260829.113.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/douyin-nightly/pixivdownload-plugin-douyin-1.0.0-nightly.20260829.113.1.jar",
           "expectedSizeBytes": 403923,
-          "sha256": "0e809f9992931bf6bd07e35c1c697fabe80fd95024df956bb8308e48fee38546",
+          "sha256": "0bfc74c5e2afbbeec959dbdfa1f9227239e0ea7f3cd86a0857634477fc8d4421",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "bWg6H8+d3QTi20NPBUGtKyBO4avxvQvmDC1/5BuwC5zM5AP0cEKUVvDPSHVKRdVYgvwn4l80h9g7sqQ9sUY9Bw=="
+            "value": "1+qrO3SPt5o6YfWXue+YgEq52vlFX3LE3TbwlZ+39TkSmYiIY1cWou0VhGxzf8cUWriGbpv0oMdwM98AWjxRDg=="
           },
-          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/douyin-nightly/pixivdownload-plugin-douyin-1.0.0-nightly.20260829.112.1.jar.sig",
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/douyin-nightly/pixivdownload-plugin-douyin-1.0.0-nightly.20260829.113.1.jar.sig",
           "requiredSdk": "1.0",
           "requiredCoreApi": "1.0",
           "dependencies": [],
-          "releasedTime": "2026-08-29T02:12:40Z",
+          "releasedTime": "2026-08-29T21:24:48Z",
           "changeNotes": [
             "首个外置版本"
           ],
