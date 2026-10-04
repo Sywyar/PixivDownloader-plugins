@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedTime": "2026-10-02T18:19:34Z",
+  "generatedTime": "2026-10-04T12:24:01Z",
   "entries": [
     {
       "pluginId": "download-workbench",
@@ -32,28 +32,29 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 0,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 0,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-07-03T17:01:02Z",
         "iconToken": "download",
         "colorToken": "pixiv",
         "recommended": true,
         "officialRequired": true,
-        "defaultInstalled": true
+        "defaultInstalled": true,
+        "defaultLocale": "zh-CN"
       },
       "packages": [
         {
           "version": "1.0.0",
           "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/download-workbench-v1.0.0/pixivdownload-plugin-download-workbench-1.0.0.jar",
-          "expectedSizeBytes": 1963396,
-          "sha256": "20f7c5acb6733083cc6e4e7ebe041161730bed7bba3a4655143f3c6f540d216a",
+          "expectedSizeBytes": 1964113,
+          "sha256": "a652c873d748042213ae7f64adfe53a23927359372834f4b10b068cab50af31c",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "7b1JJ0D8fIm4G1Wb15vPPwq6dSj2duBb5IOV736Rcs45dd6ZYSRJXwz3iIPsMfTvhBMCjR9c16AMgHj3Nt51Ag=="
+            "value": "cAnU0q994QcunUHJyAGAHJTHKG/KHQnxYm9UwK1rErZNE5VyVzmRtPzo+Dksjaw8QBnw8zVRI2m4wzPH+X5TDA=="
           },
           "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/download-workbench-v1.0.0/pixivdownload-plugin-download-workbench-1.0.0.jar.sig",
           "requiredSdk": "1.0",
@@ -99,28 +100,29 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 0,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 0,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-09-23T17:51:53Z",
         "iconToken": "palette",
         "colorToken": "violet",
         "recommended": false,
         "officialRequired": false,
-        "defaultInstalled": true
+        "defaultInstalled": true,
+        "defaultLocale": "zh-CN"
       },
       "packages": [
         {
           "version": "1.0.0",
           "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-compose-v1.0.0/pixivdownload-plugin-gui-compose-1.0.0.jar",
-          "expectedSizeBytes": 93829242,
-          "sha256": "2c63c9aca045534f25b56d18ff1052244da92919e9fb6a9f35da2f587af5417a",
+          "expectedSizeBytes": 93845248,
+          "sha256": "70737d4c6b5f81daf6ee164fccfa9b0a270fba5a6f3bd6eb66a094b799018bcf",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "Es4SDL+F8ZnCvh8ciFUuOvxbB3DzyLi9+Wb2oOkxWklneBtpRMHJitcp1gzP7IeHqE2X9U02KuPSlQfh+JWqCA=="
+            "value": "G5101b2fQaTFqOL1//S1rZ8bK8LV4KaH1OWixLJngAhusAXqd/n5mvo7q7d8fd8M2tpFakgxnChNXrRO2UJnCQ=="
           },
           "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-compose-v1.0.0/pixivdownload-plugin-gui-compose-1.0.0.jar.sig",
           "requiredSdk": "1.0",
@@ -163,28 +165,29 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 0,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 0,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-09-23T17:51:58Z",
         "iconToken": "palette",
         "colorToken": "blue",
         "recommended": true,
         "officialRequired": false,
-        "defaultInstalled": true
+        "defaultInstalled": true,
+        "defaultLocale": "zh-CN"
       },
       "packages": [
         {
           "version": "1.0.0",
           "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-swing-v1.0.0/pixivdownload-plugin-gui-swing-1.0.0.jar",
-          "expectedSizeBytes": 5437191,
-          "sha256": "f7d1d823efc6e0ecda3e10b460541addec4a15002c3ffa60e3a2de2958a6a3ea",
+          "expectedSizeBytes": 5437344,
+          "sha256": "598913750c520d1e26f03022878ec09f18d8147e8b46b3430b5ec758b0637c60",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "Xb+28Mmck5HOpsngHSZtWL0N07dxmj4cQ0rMQxGKHaWiMni8zYTGhP/yJexokbTS3U4X1HaEW5puBBP7ooTVBg=="
+            "value": "50rds+AMYqPpAR9cDvK9BXhID6Kf4U9YHbTTtcjesRGDPpfW/jlWr8/bRP5l5gqfogSrA+i0hfcvjrd5HmYfBg=="
           },
           "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-swing-v1.0.0/pixivdownload-plugin-gui-swing-1.0.0.jar.sig",
           "requiredSdk": "1.0",
@@ -228,16 +231,17 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 0,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 0,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-09-23T17:52:01Z",
         "iconToken": "screwdriver-wrench",
         "colorToken": "purple",
         "recommended": true,
         "officialRequired": false,
-        "defaultInstalled": true
+        "defaultInstalled": true,
+        "defaultLocale": "zh-CN"
       },
       "packages": [
         {
@@ -293,16 +297,17 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 0,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 0,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-08-13T19:44:07Z",
         "iconToken": "puzzle",
         "colorToken": "purple",
         "recommended": true,
         "officialRequired": false,
-        "defaultInstalled": true
+        "defaultInstalled": true,
+        "defaultLocale": "zh-CN"
       },
       "packages": [
         {
@@ -358,16 +363,17 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 0,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 0,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-07-04T09:15:42Z",
         "iconToken": "gallery",
         "colorToken": "green",
         "recommended": true,
         "officialRequired": false,
-        "defaultInstalled": true
+        "defaultInstalled": true,
+        "defaultLocale": "zh-CN"
       },
       "packages": [
         {
@@ -423,28 +429,29 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 0,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 0,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-08-02T19:49:56Z",
         "iconToken": "book",
         "colorToken": "amber",
         "recommended": true,
         "officialRequired": false,
-        "defaultInstalled": true
+        "defaultInstalled": true,
+        "defaultLocale": "zh-CN"
       },
       "packages": [
         {
           "version": "1.0.0",
           "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/novel-v1.0.0/pixivdownload-plugin-novel-1.0.0.jar",
-          "expectedSizeBytes": 683040,
-          "sha256": "1e277069662ac4530eac864908d82ac3c7cf6c79025e8f8bb1b64c86089797fc",
+          "expectedSizeBytes": 683027,
+          "sha256": "d67945ad0623af968ce650e0b1f0fdbc3ec465cf87e6c4dfaa36e63178f0cfd8",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "ADG0wpU8CNbSu9XDjC91CNwzNygTVCWnOsQVV6+BWpJPRC9zMj5ttjL9Re2MhW+yDdkoClSiauLGDfu9E1ikAw=="
+            "value": "fjAe8pFwuvLs0rqZ6g9+GtTKrU/eHjc+6/iX+unmxF+wiWvjeueXA0Ln+Ycq6KMGuJIXky8lS7GcRFkCoDsJCA=="
           },
           "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/novel-v1.0.0/pixivdownload-plugin-novel-1.0.0.jar.sig",
           "requiredSdk": "1.0",
@@ -488,16 +495,17 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 0,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 0,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-07-02T10:20:51Z",
         "iconToken": "bell",
         "colorToken": "teal",
         "recommended": true,
         "officialRequired": false,
-        "defaultInstalled": true
+        "defaultInstalled": true,
+        "defaultLocale": "zh-CN"
       },
       "packages": [
         {
@@ -553,28 +561,29 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 0,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 0,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-08-13T19:44:33Z",
         "iconToken": "users",
         "colorToken": "amber",
         "recommended": true,
         "officialRequired": false,
-        "defaultInstalled": true
+        "defaultInstalled": true,
+        "defaultLocale": "zh-CN"
       },
       "packages": [
         {
           "version": "1.0.0",
           "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/multi-mode-decision-survey-v1.0.0/pixivdownload-plugin-multi-mode-decision-survey-1.0.0.jar",
-          "expectedSizeBytes": 25700,
-          "sha256": "30c398e2cebaf15732b28aac3d729c788fb70cc7dc225b388f3ca7ac95c34820",
+          "expectedSizeBytes": 25681,
+          "sha256": "1a39a9a19bbe38bb7d72160c9dd5ed60f25c55caf386ce73b699d03e78d586d0",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "Kf+VRA/syNC7Oc1/56R5Kzw3RjaoSe+UgOs6/FTn66f006i2eTAckD1vBgeirrJNEi+Fvl9b8V7fuF/cJDnVBg=="
+            "value": "iOyPdFdW68zs+XOemaH6DpRFqGjdLbWKHgqBN0YjkOf/56dmziH04Vo8gPWDeHQc9oHvLDK7m+nmTiiEXLCxCw=="
           },
           "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/multi-mode-decision-survey-v1.0.0/pixivdownload-plugin-multi-mode-decision-survey-1.0.0.jar.sig",
           "requiredSdk": "1.0",
@@ -620,16 +629,17 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 0,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 0,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-07-01T16:15:36Z",
         "iconToken": "bell",
         "colorToken": "blue",
         "recommended": true,
         "officialRequired": false,
-        "defaultInstalled": true
+        "defaultInstalled": true,
+        "defaultLocale": "zh-CN"
       },
       "packages": [
         {
@@ -686,16 +696,17 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 0,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 0,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-07-01T16:15:47Z",
         "iconToken": "mail",
         "colorToken": "green",
         "recommended": true,
         "officialRequired": false,
-        "defaultInstalled": true
+        "defaultInstalled": true,
+        "defaultLocale": "zh-CN"
       },
       "packages": [
         {
@@ -752,16 +763,17 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 0,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 0,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-07-01T16:16:00Z",
         "iconToken": "audio-lines",
         "colorToken": "amber",
         "recommended": true,
         "officialRequired": false,
-        "defaultInstalled": true
+        "defaultInstalled": true,
+        "defaultLocale": "zh-CN"
       },
       "packages": [
         {
@@ -816,16 +828,17 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 0,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 0,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-07-01T16:16:10Z",
         "iconToken": "sparkles",
         "colorToken": "teal",
         "recommended": true,
         "officialRequired": false,
-        "defaultInstalled": true
+        "defaultInstalled": true,
+        "defaultLocale": "zh-CN"
       },
       "packages": [
         {
@@ -881,28 +894,29 @@
         ],
         "homepageUrl": "https://sywyar.github.io/PixivDownloader/#/zh-cn/pixiv-batch-downloader-import",
         "license": "AGPL-3.0-only",
-        "downloadCount": 1,
+        "downloadCount": 0,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 1,
+        "totalDownloadCount": 0,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-10-02T17:08:33Z",
         "iconToken": "download",
         "colorToken": "blue",
         "recommended": true,
         "officialRequired": false,
-        "defaultInstalled": false
+        "defaultInstalled": false,
+        "defaultLocale": "zh-CN"
       },
       "packages": [
         {
           "version": "1.0.0",
           "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/pixiv-batch-downloader-import-v1.0.0/pixivdownload-plugin-pixiv-batch-downloader-import-1.0.0.jar",
-          "expectedSizeBytes": 33113,
-          "sha256": "30d7efaec3e9587fbd80983b347b5ac3ac2ffb5d4b6eb7f3fada7fd52a79f389",
+          "expectedSizeBytes": 33274,
+          "sha256": "a078e79372e718ffe5ea2d32e715646febdbc1d8c23649eb2b1de84df48f8107",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "TI0C/GvJrZwEMRTYJWNoVnz8MPQnrPpcB2KNqHruvgVK4hdsJEyvI8GT9AA6UvW47VqgfDQbfql9c4W//ALsDQ=="
+            "value": "Z0FsgwptQ/rUnWd8a0WuTH6V/SJ5g39U7ezeztmKLnUpOR99DcG+VvQUxymx/X1VQKTvjytp7ZGV21jsz8OOAQ=="
           },
           "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/pixiv-batch-downloader-import-v1.0.0/pixivdownload-plugin-pixiv-batch-downloader-import-1.0.0.jar.sig",
           "requiredSdk": "1.0",
