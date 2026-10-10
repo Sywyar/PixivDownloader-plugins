@@ -1,0 +1,29 @@
+{
+  "pluginId": "download-workbench",
+  "packages": [
+    {
+      "version": "1.0.0",
+      "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/download-workbench-v1.0.0/pixivdownload-plugin-download-workbench-1.0.0.jar",
+      "expectedSizeBytes": 1964113,
+      "sha256": "a652c873d748042213ae7f64adfe53a23927359372834f4b10b068cab50af31c",
+      "signature": {
+        "formatVersion": 1,
+        "algorithm": "Ed25519",
+        "keyId": "pixivdownloader-official-root-2026-07",
+        "value": "cAnU0q994QcunUHJyAGAHJTHKG/KHQnxYm9UwK1rErZNE5VyVzmRtPzo+Dksjaw8QBnw8zVRI2m4wzPH+X5TDA=="
+      },
+      "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/download-workbench-v1.0.0/pixivdownload-plugin-download-workbench-1.0.0.jar.sig",
+      "requiredSdk": "1.0",
+      "requiredCoreApi": "1.0",
+      "dependencies": [
+        "posthog?@1.0"
+      ],
+      "releasedTime": "2026-07-03T17:01:02Z",
+      "changeNotes": [
+        "下载工作台从核心壳外置为官方必需插件"
+      ],
+      "channel": "stable",
+      "deprecated": false
+    }
+  ]
+}

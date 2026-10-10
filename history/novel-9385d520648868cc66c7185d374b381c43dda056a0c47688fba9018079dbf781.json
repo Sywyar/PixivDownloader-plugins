@@ -1,0 +1,27 @@
+{
+  "pluginId": "novel",
+  "packages": [
+    {
+      "version": "1.0.0",
+      "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/novel-v1.0.0/pixivdownload-plugin-novel-1.0.0.jar",
+      "expectedSizeBytes": 683027,
+      "sha256": "d67945ad0623af968ce650e0b1f0fdbc3ec465cf87e6c4dfaa36e63178f0cfd8",
+      "signature": {
+        "formatVersion": 1,
+        "algorithm": "Ed25519",
+        "keyId": "pixivdownloader-official-root-2026-07",
+        "value": "fjAe8pFwuvLs0rqZ6g9+GtTKrU/eHjc+6/iX+unmxF+wiWvjeueXA0Ln+Ycq6KMGuJIXky8lS7GcRFkCoDsJCA=="
+      },
+      "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/novel-v1.0.0/pixivdownload-plugin-novel-1.0.0.jar.sig",
+      "requiredSdk": "1.0",
+      "requiredCoreApi": "1.0",
+      "dependencies": [],
+      "releasedTime": "2026-08-02T19:49:56Z",
+      "changeNotes": [
+        "合并小说下载核心与小说展示层为官方可选插件"
+      ],
+      "channel": "stable",
+      "deprecated": false
+    }
+  ]
+}

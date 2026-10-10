@@ -1,0 +1,27 @@
+{
+  "pluginId": "tts",
+  "packages": [
+    {
+      "version": "1.0.0",
+      "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/tts-v1.0.0/pixivdownload-plugin-tts-1.0.0.jar",
+      "expectedSizeBytes": 234344,
+      "sha256": "94a90abf96f67d20d09c0f5cb1fd06d2cc545853045684abf2da270be82ff015",
+      "signature": {
+        "formatVersion": 1,
+        "algorithm": "Ed25519",
+        "keyId": "pixivdownloader-official-root-2026-07",
+        "value": "P8wyxKj9+EhE/CyrodJKwjE87vG/L4zQg2Y6UtLJH2LlrdVDRCeAq0O4CEyi3bjqvCPTbTcxMSNtjEWBGSbXDQ=="
+      },
+      "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/tts-v1.0.0/pixivdownload-plugin-tts-1.0.0.jar.sig",
+      "requiredSdk": "1.0",
+      "requiredCoreApi": "1.0",
+      "dependencies": [],
+      "releasedTime": "2026-07-01T16:16:00Z",
+      "changeNotes": [
+        "首个外置版本"
+      ],
+      "channel": "stable",
+      "deprecated": false
+    }
+  ]
+}

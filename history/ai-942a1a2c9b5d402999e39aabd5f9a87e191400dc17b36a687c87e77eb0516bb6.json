@@ -1,0 +1,27 @@
+{
+  "pluginId": "ai",
+  "packages": [
+    {
+      "version": "1.0.0",
+      "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/ai-v1.0.0/pixivdownload-plugin-ai-1.0.0.jar",
+      "expectedSizeBytes": 104450,
+      "sha256": "230689f48f0550c15bcc9d53463c002d4ee7ad8d682297a2e92cb89858073e60",
+      "signature": {
+        "formatVersion": 1,
+        "algorithm": "Ed25519",
+        "keyId": "pixivdownloader-official-root-2026-07",
+        "value": "1gDi1ku0xj17X3iNznMlnYSqOALEud7X1ucdI45hWXLeJ1tKWZlyZHHhuYI4ooQCg2716W8BsDg4wa2we5tVCA=="
+      },
+      "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/ai-v1.0.0/pixivdownload-plugin-ai-1.0.0.jar.sig",
+      "requiredSdk": "1.0",
+      "requiredCoreApi": "1.0",
+      "dependencies": [],
+      "releasedTime": "2026-07-01T16:16:10Z",
+      "changeNotes": [
+        "首个外置版本"
+      ],
+      "channel": "stable",
+      "deprecated": false
+    }
+  ]
+}
