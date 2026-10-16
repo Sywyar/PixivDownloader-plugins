@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedTime": "2026-10-10T15:47:19Z",
+  "generatedTime": "2026-10-16T13:30:43Z",
   "entries": [
     {
       "pluginId": "download-workbench",
@@ -32,11 +32,11 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 3,
-        "previousDownloadCount": 0,
+        "downloadCount": 0,
+        "previousDownloadCount": 3,
         "totalDownloadCount": 3,
-        "latestVersion": "1.0.1",
-        "updatedTime": "2026-10-10T11:05:21Z",
+        "latestVersion": "1.0.2",
+        "updatedTime": "2026-10-16T13:29:53Z",
         "iconToken": "download",
         "colorToken": "pixiv",
         "recommended": true,
@@ -46,6 +46,30 @@
         "screenshots": []
       },
       "packages": [
+        {
+          "version": "1.0.2",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/download-workbench-v1.0.2/pixivdownload-plugin-download-workbench-1.0.2.jar",
+          "expectedSizeBytes": 2006573,
+          "sha256": "bd5ac4c37989e241d9e90d6466b79153ea20a1b325d2b0965ec28d6a1e2be1a4",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "uufdAhIlXtGZ24QnKenlK5wmYVmgvWdZPZZri0XPSkOLD5LQHi2PDrlS01cMpkHpJIJpWogmzl1XUAyHrtB2DQ=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/download-workbench-v1.0.2/pixivdownload-plugin-download-workbench-1.0.2.jar.sig",
+          "requiredSdk": "1.3",
+          "requiredCoreApi": "1.3",
+          "dependencies": [
+            "posthog?@1.0"
+          ],
+          "releasedTime": "2026-10-16T13:29:53Z",
+          "changeNotes": [
+            "下载工作台从核心壳外置为官方必需插件"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        },
         {
           "version": "1.0.1",
           "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/download-workbench-v1.0.1/pixivdownload-plugin-download-workbench-1.0.1.jar",
@@ -107,11 +131,11 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 3,
-        "previousDownloadCount": 0,
+        "downloadCount": 0,
+        "previousDownloadCount": 3,
         "totalDownloadCount": 3,
-        "latestVersion": "1.0.1",
-        "updatedTime": "2026-10-10T11:05:30Z",
+        "latestVersion": "1.0.2",
+        "updatedTime": "2026-10-16T13:30:02Z",
         "iconToken": "palette",
         "colorToken": "violet",
         "recommended": false,
@@ -122,21 +146,21 @@
       },
       "packages": [
         {
-          "version": "1.0.1",
-          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-compose-v1.0.1/pixivdownload-plugin-gui-compose-1.0.1.jar",
-          "expectedSizeBytes": 93845518,
-          "sha256": "2bb90cc127aeeaf1108430d170aff6a3e5bc49c294e77f9c5c32f4396bfa7957",
+          "version": "1.0.2",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-compose-v1.0.2/pixivdownload-plugin-gui-compose-1.0.2.jar",
+          "expectedSizeBytes": 93843878,
+          "sha256": "3647c51b3c0ab3a2599edbe3de4d4aa83dc8caffd9361ddbe612ef6bbfd991d1",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "n279tFAu3Kyn5xyvWeKQUukD0pUsUFuHk9bjBt6aW0p5C4Q35utmH54aVlwGnjUIr4nUp9JczFxC+AvvhMTPBQ=="
+            "value": "dBust8u/Da/miXtrDSjY5FC44kzm8EXhgJHpHh+PARDInVozYAoQvCzh7tftvdNEf+pWdaDYQ/h2fryE4aqrCw=="
           },
-          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-compose-v1.0.1/pixivdownload-plugin-gui-compose-1.0.1.jar.sig",
-          "requiredSdk": "1.2",
-          "requiredCoreApi": "1.2",
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-compose-v1.0.2/pixivdownload-plugin-gui-compose-1.0.2.jar.sig",
+          "requiredSdk": "1.3",
+          "requiredCoreApi": "1.3",
           "dependencies": [],
-          "releasedTime": "2026-10-10T11:05:30Z",
+          "releasedTime": "2026-10-16T13:30:02Z",
           "changeNotes": [
             "新增 Compose Multiplatform 桌面 UI 提供者"
           ],
@@ -165,7 +189,13 @@
           "channel": "stable",
           "deprecated": false
         }
-      ]
+      ],
+      "history": {
+        "path": "history/gui-compose-bdd5da70c1d2f52ba85abf1db97d98367a9b613850d055077aa0a8ab6bff67bc.json",
+        "sha256": "bdd5da70c1d2f52ba85abf1db97d98367a9b613850d055077aa0a8ab6bff67bc",
+        "sizeBytes": 1055,
+        "versions": 1
+      }
     },
     {
       "pluginId": "gui-swing",
@@ -195,11 +225,11 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 3,
-        "previousDownloadCount": 0,
+        "downloadCount": 0,
+        "previousDownloadCount": 3,
         "totalDownloadCount": 3,
-        "latestVersion": "1.0.1",
-        "updatedTime": "2026-10-10T11:05:40Z",
+        "latestVersion": "1.0.2",
+        "updatedTime": "2026-10-16T13:30:13Z",
         "iconToken": "palette",
         "colorToken": "blue",
         "recommended": true,
@@ -210,21 +240,21 @@
       },
       "packages": [
         {
-          "version": "1.0.1",
-          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-swing-v1.0.1/pixivdownload-plugin-gui-swing-1.0.1.jar",
-          "expectedSizeBytes": 5443530,
-          "sha256": "d7915ca0cdb97635a0c31fea2843cfd426ff459e94e87b86e650ea4817baf322",
+          "version": "1.0.2",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-swing-v1.0.2/pixivdownload-plugin-gui-swing-1.0.2.jar",
+          "expectedSizeBytes": 5445262,
+          "sha256": "ef5f245cbf10345c273ea9bd641373cf034d7ad3e40017ac4d9881920fb65e5d",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "/lsFU4S94KeyfM5uiFBAe7LMQR2yYUHm1mgw835w+LV+J6BuspmBa6RMrjk4JklqUmtctJrccJN/MV1ati2zBQ=="
+            "value": "qdp4ABWkwsm5dJjtFphuUUDodvqKk935DnP61iKanVP50F+Mz4ULUzULHMtp3rEPHT/Vw3jDL/m4lxIY84mOCA=="
           },
-          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-swing-v1.0.1/pixivdownload-plugin-gui-swing-1.0.1.jar.sig",
-          "requiredSdk": "1.2",
-          "requiredCoreApi": "1.2",
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-swing-v1.0.2/pixivdownload-plugin-gui-swing-1.0.2.jar.sig",
+          "requiredSdk": "1.3",
+          "requiredCoreApi": "1.3",
           "dependencies": [],
-          "releasedTime": "2026-10-10T11:05:40Z",
+          "releasedTime": "2026-10-16T13:30:13Z",
           "changeNotes": [
             "首个外置版本"
           ],
@@ -253,7 +283,13 @@
           "channel": "stable",
           "deprecated": false
         }
-      ]
+      ],
+      "history": {
+        "path": "history/gui-swing-39221f1fe82bede1874be7f9e5a602ead89c535c4d54fb560179496748040856.json",
+        "sha256": "39221f1fe82bede1874be7f9e5a602ead89c535c4d54fb560179496748040856",
+        "sizeBytes": 1014,
+        "versions": 1
+      }
     },
     {
       "pluginId": "gallery-tools",
@@ -284,9 +320,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 5,
+        "downloadCount": 7,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 5,
+        "totalDownloadCount": 7,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-09-23T17:52:01Z",
         "iconToken": "screwdriver-wrench",
@@ -350,9 +386,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 5,
+        "downloadCount": 7,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 5,
+        "totalDownloadCount": 7,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-08-13T19:44:07Z",
         "iconToken": "puzzle",
@@ -416,9 +452,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 3,
+        "downloadCount": 5,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 3,
+        "totalDownloadCount": 5,
         "latestVersion": "1.0.1",
         "updatedTime": "2026-10-10T11:05:48Z",
         "iconToken": "gallery",
@@ -505,9 +541,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 3,
+        "downloadCount": 5,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 3,
+        "totalDownloadCount": 5,
         "latestVersion": "1.0.1",
         "updatedTime": "2026-10-10T11:05:54Z",
         "iconToken": "book",
@@ -578,9 +614,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 5,
+        "downloadCount": 7,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 5,
+        "totalDownloadCount": 7,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-07-02T10:20:51Z",
         "iconToken": "bell",
@@ -644,9 +680,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 5,
+        "downloadCount": 7,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 5,
+        "totalDownloadCount": 7,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-08-13T19:44:33Z",
         "iconToken": "users",
@@ -712,9 +748,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 3,
+        "downloadCount": 5,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 3,
+        "totalDownloadCount": 5,
         "latestVersion": "1.0.1",
         "updatedTime": "2026-10-10T11:06:02Z",
         "iconToken": "bell",
@@ -786,9 +822,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 5,
+        "downloadCount": 7,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 5,
+        "totalDownloadCount": 7,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-07-01T16:15:47Z",
         "iconToken": "mail",
@@ -853,9 +889,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 3,
+        "downloadCount": 5,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 3,
+        "totalDownloadCount": 5,
         "latestVersion": "1.0.1",
         "updatedTime": "2026-10-10T11:06:09Z",
         "iconToken": "audio-lines",
@@ -925,9 +961,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 3,
+        "downloadCount": 5,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 3,
+        "totalDownloadCount": 5,
         "latestVersion": "1.0.1",
         "updatedTime": "2026-10-10T11:06:15Z",
         "iconToken": "sparkles",
@@ -998,9 +1034,9 @@
         ],
         "homepageUrl": "https://sywyar.github.io/PixivDownloader/#/zh-cn/pixiv-batch-downloader-import",
         "license": "AGPL-3.0-only",
-        "downloadCount": 13,
+        "downloadCount": 15,
         "previousDownloadCount": 0,
-        "totalDownloadCount": 13,
+        "totalDownloadCount": 15,
         "latestVersion": "1.0.0",
         "updatedTime": "2026-10-02T17:08:33Z",
         "iconToken": "download",

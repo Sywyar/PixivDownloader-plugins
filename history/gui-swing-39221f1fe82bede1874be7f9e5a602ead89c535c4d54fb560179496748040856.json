@@ -1,0 +1,27 @@
+{
+  "pluginId": "gui-swing",
+  "packages": [
+    {
+      "version": "1.0.1",
+      "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-swing-v1.0.1/pixivdownload-plugin-gui-swing-1.0.1.jar",
+      "expectedSizeBytes": 5443530,
+      "sha256": "d7915ca0cdb97635a0c31fea2843cfd426ff459e94e87b86e650ea4817baf322",
+      "signature": {
+        "formatVersion": 1,
+        "algorithm": "Ed25519",
+        "keyId": "pixivdownloader-official-root-2026-07",
+        "value": "/lsFU4S94KeyfM5uiFBAe7LMQR2yYUHm1mgw835w+LV+J6BuspmBa6RMrjk4JklqUmtctJrccJN/MV1ati2zBQ=="
+      },
+      "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-swing-v1.0.1/pixivdownload-plugin-gui-swing-1.0.1.jar.sig",
+      "requiredSdk": "1.2",
+      "requiredCoreApi": "1.2",
+      "dependencies": [],
+      "releasedTime": "2026-10-10T11:05:40Z",
+      "changeNotes": [
+        "首个外置版本"
+      ],
+      "channel": "stable",
+      "deprecated": false
+    }
+  ]
+}
