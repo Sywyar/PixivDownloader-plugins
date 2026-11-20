@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedTime": "2026-11-19T01:00:49Z",
+  "generatedTime": "2026-11-20T01:02:55Z",
   "entries": [
     {
       "pluginId": "download-workbench",
@@ -225,9 +225,9 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 32,
+        "downloadCount": 33,
         "previousDownloadCount": 9,
-        "totalDownloadCount": 41,
+        "totalDownloadCount": 42,
         "latestVersion": "1.0.2",
         "updatedTime": "2026-10-16T13:30:13Z",
         "iconToken": "palette",
