@@ -1,1 +1,1 @@
-{"formatVersion":1,"algorithm":"Ed25519","keyId":"pixivdownloader-official-root-2026-07","value":"i6xLAt8I0ClKHqy/EOQQC6/eZ7EOycBXwN4yc9lU+6+tGuw3TRtIT/eYggP+J/7CD4IEE50W7VCSSMTiPVJCDg=="}
+{"formatVersion":1,"algorithm":"Ed25519","keyId":"pixivdownloader-official-root-2026-07","value":"LRSWgj6AHGtb3520LZEyFYyRd/+nksHBKWvaKjty75HJ4F+Ho6nS6FPNF7iY0nVr6wiVdETXMl4KCYouZY5uCw=="}

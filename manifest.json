@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedTime": "2026-11-28T01:56:28Z",
+  "generatedTime": "2026-11-28T08:19:03Z",
   "entries": [
     {
       "pluginId": "download-workbench",
@@ -9,16 +9,16 @@
       "descriptionKey": "plugin.summary",
       "market": {
         "displayName": {
-          "zh": "下载工作台",
-          "en": "Download Workbench"
+          "zh": "Pixiv下载工作台",
+          "en": "Pixiv Download Workbench"
         },
         "summary": {
-          "zh": "提交 Pixiv 抓取任务、管理下载队列与下载历史的工作台（必选）。",
-          "en": "Workbench for submitting Pixiv fetch tasks and managing the download queue and history (required)."
+          "zh": "提供程序主要的下载页面。禁用或移除后，第三方下载类型可能没有可用操作入口；其他插件独立提供的已有下载计划仍可运行，依赖本插件来源的计划（包括 Pixiv 小说计划）会暂停。",
+          "en": "Provides the application's main download pages. Disabling or removing this plugin may leave no interface for third-party download types. Existing schedules provided independently by other plugins can continue to run; schedules that depend on this plugin's sources, including Pixiv novel schedules, will be suspended."
         },
         "description": {
-          "zh": "官方必需插件，提供基础插画下载工作流、下载队列、批量状态、Pixiv 代理入口、下载页静态资源、油猴脚本分发与计划下载宿主。缺失时核心壳进入恢复 / 补齐模式。",
-          "en": "Official required plugin providing the basic illustration download workflow, queue, batch state, Pixiv proxy endpoints, workbench static assets, userscript distribution, and scheduled download host. When missing, the core shell enters recovery/repair mode."
+          "zh": "可选下载工作台插件，提供主要下载页面、插画下载与状态、Pixiv 计划来源及配套油猴脚本。通用队列控制、计划调度和脚本分发由主程序提供。停用或移除后，第三方下载类型可能没有可用操作入口；其他插件独立提供的已有计划仍可运行，依赖本插件来源或执行器的计划（包括 Pixiv 小说计划）会暂停。停用保留已有数据，完整重启后生效。",
+          "en": "Optional download workbench plugin providing the main download pages, illustration downloads and status, Pixiv schedule sources, and companion userscripts. The main application provides generic queue control, scheduling, and userscript distribution. Disabling or removing this plugin may leave no interface for third-party download types. Existing schedules provided independently by other plugins can continue to run; schedules that depend on this plugin's sources or executors, including Pixiv novel schedules, will be suspended. Disabling it preserves existing data and takes effect after a full restart."
         },
         "author": "Sywyar",
         "sourceType": "official",
@@ -32,40 +32,40 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 9,
-        "previousDownloadCount": 10,
+        "downloadCount": 0,
+        "previousDownloadCount": 19,
         "totalDownloadCount": 19,
-        "latestVersion": "1.0.2",
-        "updatedTime": "2026-10-16T13:29:53Z",
+        "latestVersion": "1.1.0",
+        "updatedTime": "2026-11-28T08:16:52Z",
         "iconToken": "download",
         "colorToken": "pixiv",
         "recommended": true,
-        "officialRequired": true,
+        "officialRequired": false,
         "defaultInstalled": true,
         "defaultLocale": "zh-CN",
         "screenshots": []
       },
       "packages": [
         {
-          "version": "1.0.2",
-          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/download-workbench-v1.0.2/pixivdownload-plugin-download-workbench-1.0.2.jar",
-          "expectedSizeBytes": 2006573,
-          "sha256": "bd5ac4c37989e241d9e90d6466b79153ea20a1b325d2b0965ec28d6a1e2be1a4",
+          "version": "1.1.0",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/download-workbench-v1.1.0/pixivdownload-plugin-download-workbench-1.1.0.jar",
+          "expectedSizeBytes": 1991243,
+          "sha256": "aa440dd1c0c0b2bece7ae04c7ee03b8b48accc1d9462520113bf41e68cd7888a",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "uufdAhIlXtGZ24QnKenlK5wmYVmgvWdZPZZri0XPSkOLD5LQHi2PDrlS01cMpkHpJIJpWogmzl1XUAyHrtB2DQ=="
+            "value": "r/QBpJzH1EuuV8wFtL/MwgnSB8pD7zOeyD5mR02vih8ta+CYOaERCLrsvri7uqG37ScZ3aUCyNHSHH5kItBeCg=="
           },
-          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/download-workbench-v1.0.2/pixivdownload-plugin-download-workbench-1.0.2.jar.sig",
-          "requiredSdk": "1.3",
-          "requiredCoreApi": "1.3",
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/download-workbench-v1.1.0/pixivdownload-plugin-download-workbench-1.1.0.jar.sig",
+          "requiredSdk": "2.0",
+          "requiredCoreApi": "2.0",
           "dependencies": [
             "posthog?@1.0"
           ],
-          "releasedTime": "2026-10-16T13:29:53Z",
+          "releasedTime": "2026-11-28T08:16:52Z",
           "changeNotes": [
-            "下载工作台从核心壳外置为官方必需插件"
+            "下载工作台支持按需停用"
           ],
           "channel": "stable",
           "deprecated": false
@@ -96,11 +96,77 @@
         }
       ],
       "history": {
-        "path": "history/download-workbench-f3ff0f806ec50bdac72e76ab620cf5655a8c08aa02decd0691abc9d332473e2a.json",
-        "sha256": "f3ff0f806ec50bdac72e76ab620cf5655a8c08aa02decd0691abc9d332473e2a",
-        "sizeBytes": 1125,
-        "versions": 1
+        "path": "history/download-workbench-6067fc4e50d641fef2f9d684e1bfcea998302048ee06fb994a51594c9b0da79c.json",
+        "sha256": "6067fc4e50d641fef2f9d684e1bfcea998302048ee06fb994a51594c9b0da79c",
+        "sizeBytes": 2192,
+        "versions": 2
       }
+    },
+    {
+      "pluginId": "database-sqlite",
+      "displayNamespace": "database-sqlite",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "SQLite 数据库",
+          "en": "SQLite database"
+        },
+        "summary": {
+          "zh": "使用本地文件保存应用和插件的数据，切换数据库需要完全重启程序。",
+          "en": "Store application and plugin data in local files. Database changes require a full application restart."
+        },
+        "description": {
+          "zh": "提供宿主与 owner 隔离的私有 SQLite 存储，默认随发行包安装。选择、停用或替换后须完整重启；切换配置不迁移数据。",
+          "en": "Provides SQLite storage for the host and isolated plugin owners. Installed by default. Selection, disabling or replacement requires a full restart; configuration changes do not migrate data."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "database",
+        "tags": [
+          "database",
+          "sqlite",
+          "storage"
+        ],
+        "homepageUrl": "https://sywyar.github.io/PixivDownloader/#/en/configuration?id=main-database-and-existing-data",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0",
+        "updatedTime": "2026-11-28T08:17:00Z",
+        "iconToken": "database",
+        "colorToken": "blue",
+        "recommended": true,
+        "officialRequired": false,
+        "defaultInstalled": true,
+        "defaultLocale": "zh-CN",
+        "screenshots": []
+      },
+      "packages": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/database-sqlite-v1.0.0/pixivdownload-plugin-database-sqlite-1.0.0.jar",
+          "expectedSizeBytes": 14299917,
+          "sha256": "3fda50e8e5841e6faa7b372d5f75def6b021ce2165477035df203a0ce8ebb236",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "emDJ/z2SuRLsDcWgptIU7rHGVXz1BNSsvw7zHK52LgOcp1iR9tZAnLUzf0LtWESXGa54BizzxPg5AEDusNS8Cw=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/database-sqlite-v1.0.0/pixivdownload-plugin-database-sqlite-1.0.0.jar.sig",
+          "requiredSdk": "2.0",
+          "requiredCoreApi": "2.0",
+          "dependencies": [],
+          "releasedTime": "2026-11-28T08:17:00Z",
+          "changeNotes": [
+            "以外置数据库插件提供 SQLite 连接"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        }
+      ]
     },
     {
       "pluginId": "gui-compose",
@@ -117,8 +183,8 @@
           "en": "Provides an optional Compose Multiplatform desktop UI and a complete declarative UI node renderer."
         },
         "description": {
-          "zh": "提供可按 app.gui-provider=gui-compose 显式选择的 Compose Multiplatform 桌面渲染器，覆盖稳定声明式 UI 节点契约。",
-          "en": "Provides an explicitly selectable Compose Multiplatform desktop renderer for the stable declarative UI node contract via app.gui-provider=gui-compose."
+          "zh": "提供默认的 Compose Multiplatform 桌面界面，也可通过 app.gui-provider=gui-compose 显式选择。",
+          "en": "Provides the default Compose Multiplatform desktop UI. You can also select it explicitly with app.gui-provider=gui-compose."
         },
         "author": "Sywyar",
         "sourceType": "official",
@@ -131,11 +197,11 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 6,
-        "previousDownloadCount": 9,
+        "downloadCount": 0,
+        "previousDownloadCount": 15,
         "totalDownloadCount": 15,
-        "latestVersion": "1.0.2",
-        "updatedTime": "2026-10-16T13:30:02Z",
+        "latestVersion": "1.1.1",
+        "updatedTime": "2026-11-28T08:17:07Z",
         "iconToken": "palette",
         "colorToken": "violet",
         "recommended": false,
@@ -146,26 +212,40 @@
       },
       "packages": [
         {
-          "version": "1.0.2",
-          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-compose-v1.0.2/pixivdownload-plugin-gui-compose-1.0.2.jar",
-          "expectedSizeBytes": 93843878,
-          "sha256": "3647c51b3c0ab3a2599edbe3de4d4aa83dc8caffd9361ddbe612ef6bbfd991d1",
+          "version": "1.1.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-compose-v1.1.1/pixivdownload-plugin-gui-compose-1.1.1.jar",
+          "expectedSizeBytes": 79532489,
+          "sha256": "2533647436dd35c511309a41abbd8b71ca107a2a29af1dd6d5eca7be17194654",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "dBust8u/Da/miXtrDSjY5FC44kzm8EXhgJHpHh+PARDInVozYAoQvCzh7tftvdNEf+pWdaDYQ/h2fryE4aqrCw=="
+            "value": "vT+SQ7tikZh9rOFrE2ZZkrAeDaIUIHWgxTT2fFJ5Ivpb8VMGB5roVt2UxNPOpS6RT+Y9jtx9qBxUEHTpEEFKCw=="
           },
-          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-compose-v1.0.2/pixivdownload-plugin-gui-compose-1.0.2.jar.sig",
-          "requiredSdk": "1.3",
-          "requiredCoreApi": "1.3",
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-compose-v1.1.1/pixivdownload-plugin-gui-compose-1.1.1.jar.sig",
+          "requiredSdk": "2.0",
+          "requiredCoreApi": "2.0",
           "dependencies": [],
-          "releasedTime": "2026-10-16T13:30:02Z",
+          "releasedTime": "2026-11-28T08:17:07Z",
           "changeNotes": [
             "新增 Compose Multiplatform 桌面 UI 提供者"
           ],
           "channel": "stable",
-          "deprecated": false
+          "deprecated": false,
+          "installerArtifacts": {
+            "windows-x64": {
+              "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-compose-v1.1.1/pixivdownload-plugin-gui-compose-1.1.1-windows-x64.jar",
+              "expectedSizeBytes": 27508894,
+              "sha256": "58b02ed3f49919a277d89e0d1c40e45e6c835d9cfc9e7a0d35d4329f44b787d7",
+              "signature": {
+                "formatVersion": 1,
+                "algorithm": "Ed25519",
+                "keyId": "pixivdownloader-official-root-2026-07",
+                "value": "N7zLoR7V0ISa1mQFDwUjFDA0FcfBI21HdwBIqF1Lh16lGJOUS643p9ItSFeEnOYt7TIf/1HSaVzOtuTdXx4ECg=="
+              },
+              "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-compose-v1.1.1/pixivdownload-plugin-gui-compose-1.1.1-windows-x64.jar.sig"
+            }
+          }
         },
         {
           "version": "1.0.0",
@@ -191,10 +271,10 @@
         }
       ],
       "history": {
-        "path": "history/gui-compose-bdd5da70c1d2f52ba85abf1db97d98367a9b613850d055077aa0a8ab6bff67bc.json",
-        "sha256": "bdd5da70c1d2f52ba85abf1db97d98367a9b613850d055077aa0a8ab6bff67bc",
-        "sizeBytes": 1055,
-        "versions": 1
+        "path": "history/gui-compose-8d7fac2899099f10418948c28a141c59d6851c93992eef818cf9163127de4129.json",
+        "sha256": "8d7fac2899099f10418948c28a141c59d6851c93992eef818cf9163127de4129",
+        "sizeBytes": 2059,
+        "versions": 2
       }
     },
     {
@@ -225,11 +305,11 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 61,
-        "previousDownloadCount": 9,
-        "totalDownloadCount": 70,
-        "latestVersion": "1.0.2",
-        "updatedTime": "2026-10-16T13:30:13Z",
+        "downloadCount": 0,
+        "previousDownloadCount": 73,
+        "totalDownloadCount": 73,
+        "latestVersion": "1.1.0",
+        "updatedTime": "2026-11-28T08:17:15Z",
         "iconToken": "palette",
         "colorToken": "blue",
         "recommended": true,
@@ -240,21 +320,21 @@
       },
       "packages": [
         {
-          "version": "1.0.2",
-          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-swing-v1.0.2/pixivdownload-plugin-gui-swing-1.0.2.jar",
-          "expectedSizeBytes": 5445262,
-          "sha256": "ef5f245cbf10345c273ea9bd641373cf034d7ad3e40017ac4d9881920fb65e5d",
+          "version": "1.1.0",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-swing-v1.1.0/pixivdownload-plugin-gui-swing-1.1.0.jar",
+          "expectedSizeBytes": 5595969,
+          "sha256": "8b5526ca24cd3b65700af3ad168825087c77a3d003e723d1e675e46f5361c589",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "qdp4ABWkwsm5dJjtFphuUUDodvqKk935DnP61iKanVP50F+Mz4ULUzULHMtp3rEPHT/Vw3jDL/m4lxIY84mOCA=="
+            "value": "mPPGnA9A9ssKLQw/FSEuTgm0nkaShtVAAVEYF28YU1Dv1IyAXfBXKyIkCgfbTMjn/tV+IfSgJlhQBZtoOQSlAg=="
           },
-          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-swing-v1.0.2/pixivdownload-plugin-gui-swing-1.0.2.jar.sig",
-          "requiredSdk": "1.3",
-          "requiredCoreApi": "1.3",
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-swing-v1.1.0/pixivdownload-plugin-gui-swing-1.1.0.jar.sig",
+          "requiredSdk": "2.0",
+          "requiredCoreApi": "2.0",
           "dependencies": [],
-          "releasedTime": "2026-10-16T13:30:13Z",
+          "releasedTime": "2026-11-28T08:17:15Z",
           "changeNotes": [
             "首个外置版本"
           ],
@@ -285,10 +365,10 @@
         }
       ],
       "history": {
-        "path": "history/gui-swing-39221f1fe82bede1874be7f9e5a602ead89c535c4d54fb560179496748040856.json",
-        "sha256": "39221f1fe82bede1874be7f9e5a602ead89c535c4d54fb560179496748040856",
-        "sizeBytes": 1014,
-        "versions": 1
+        "path": "history/gui-swing-4f6851303260de583071fe999cb4554773604293a9bb8499bd19e8b4534df4ee.json",
+        "sha256": "4f6851303260de583071fe999cb4554773604293a9bb8499bd19e8b4534df4ee",
+        "sizeBytes": 1979,
+        "versions": 2
       }
     },
     {
@@ -320,19 +400,42 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 12,
-        "previousDownloadCount": 0,
+        "downloadCount": 0,
+        "previousDownloadCount": 12,
         "totalDownloadCount": 12,
-        "latestVersion": "1.0.0",
-        "updatedTime": "2026-09-23T17:52:01Z",
+        "latestVersion": "1.1.0",
+        "updatedTime": "2026-11-28T08:17:22Z",
         "iconToken": "screwdriver-wrench",
         "colorToken": "purple",
         "recommended": true,
         "officialRequired": false,
         "defaultInstalled": true,
-        "defaultLocale": "zh-CN"
+        "defaultLocale": "zh-CN",
+        "screenshots": []
       },
       "packages": [
+        {
+          "version": "1.1.0",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gallery-tools-v1.1.0/pixivdownload-plugin-gallery-tools-1.1.0.jar",
+          "expectedSizeBytes": 94795,
+          "sha256": "a335c37ab065ba927040cc9fb98a263d2c2c04c45ca0a70f8deaac637bcd7d3e",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "4I7RRu+tgCSHJsRrHDxJEpBOuSclKgdHpZcHtHcvsarQDhQhavkLpYyX53oujRE6vaEymbM2OShquT2IlKj0BA=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gallery-tools-v1.1.0/pixivdownload-plugin-gallery-tools-1.1.0.jar.sig",
+          "requiredSdk": "2.0",
+          "requiredCoreApi": "2.0",
+          "dependencies": [],
+          "releasedTime": "2026-11-28T08:17:22Z",
+          "changeNotes": [
+            "首个外置版本"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        },
         {
           "version": "1.0.0",
           "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gallery-tools-v1.0.0/pixivdownload-plugin-gallery-tools-1.0.0.jar",
@@ -351,6 +454,75 @@
           "releasedTime": "2026-09-23T17:52:01Z",
           "changeNotes": [
             "首个外置版本"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "pixiv-content",
+      "displayNamespace": "pixiv-content",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "Pixiv 内容 API",
+          "en": "Pixiv Content API"
+        },
+        "summary": {
+          "zh": "搜索作品和小说，查看排行榜、作者、系列、个人收藏和关注更新，直接读取图片、动图和小说正文。",
+          "en": "Search artwork and novels, browse rankings, artists, series, bookmarks and following feeds, or read images, animations and novel text directly."
+        },
+        "description": {
+          "zh": "默认安装的 Pixiv 只读 API。按作品类型搜索，查看画师、系列和排行榜，直接读取图片、APNG 动图、小说正文及插图。指定 Pixiv 采集凭证可查看该账号的收藏、关注列表、关注作者的新作和珍藏集。",
+          "en": "Search Pixiv by work type, browse creators, series and rankings, and read images, APNG animations and illustrated novels. A Pixiv credential gives access to that account’s bookmarks, followed creators, their latest works and collections. This read-only plugin is installed by default."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "utility",
+        "tags": [
+          "pixiv",
+          "api",
+          "ranking",
+          "image",
+          "novel",
+          "ugoira"
+        ],
+        "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0",
+        "updatedTime": "2026-11-28T08:17:27Z",
+        "iconToken": "gallery",
+        "colorToken": "blue",
+        "recommended": true,
+        "officialRequired": false,
+        "defaultInstalled": true,
+        "defaultLocale": "zh-CN",
+        "screenshots": []
+      },
+      "packages": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/pixiv-content-v1.0.0/pixivdownload-plugin-pixiv-content-1.0.0.jar",
+          "expectedSizeBytes": 227052,
+          "sha256": "e0df35cb86594d23f6c9976952f2cc4c28e1d1e1952c15a3a54c0132f02f47ab",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "wx/Oqqv4iOcT/NHloiw16DNAdLSk6m7fCxxLtjAvu6UHPCv/+qXJv45H45OiBVWjy++8xAGs3o1Fdv7VRkdyCw=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/pixiv-content-v1.0.0/pixivdownload-plugin-pixiv-content-1.0.0.jar.sig",
+          "requiredSdk": "2.0",
+          "requiredCoreApi": "2.0",
+          "dependencies": [],
+          "releasedTime": "2026-11-28T08:17:27Z",
+          "changeNotes": [
+            "支持作品与小说排行榜、逐页取图、小说插图、动图以及当前账号的收藏、关注和珍藏集"
           ],
           "channel": "stable",
           "deprecated": false
@@ -386,19 +558,42 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 13,
-        "previousDownloadCount": 0,
+        "downloadCount": 0,
+        "previousDownloadCount": 13,
         "totalDownloadCount": 13,
-        "latestVersion": "1.0.0",
-        "updatedTime": "2026-08-13T19:44:07Z",
+        "latestVersion": "1.0.1",
+        "updatedTime": "2026-11-28T08:17:33Z",
         "iconToken": "puzzle",
         "colorToken": "purple",
         "recommended": true,
         "officialRequired": false,
         "defaultInstalled": true,
-        "defaultLocale": "zh-CN"
+        "defaultLocale": "zh-CN",
+        "screenshots": []
       },
       "packages": [
+        {
+          "version": "1.0.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/posthog-v1.0.1/pixivdownload-plugin-posthog-1.0.1.jar",
+          "expectedSizeBytes": 165879,
+          "sha256": "cea7a1ed3ee8b143b2df5b778dfd6fea5655ddfe8f34a36f586ac7ef28a0261f",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "5tmoogM8b2zAyGZa/N60svZQr4iVb6AuFgVHeirm3lArwtNZMQf5iqXAL2TksJC+ohu+G7khQi3x0hkl10EJBA=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/posthog-v1.0.1/pixivdownload-plugin-posthog-1.0.1.jar.sig",
+          "requiredSdk": "2.0",
+          "requiredCoreApi": "2.0",
+          "dependencies": [],
+          "releasedTime": "2026-11-28T08:17:33Z",
+          "changeNotes": [
+            "首个外置版本"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        },
         {
           "version": "1.0.0",
           "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/posthog-v1.0.0/pixivdownload-plugin-posthog-1.0.0.jar",
@@ -452,11 +647,11 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 11,
-        "previousDownloadCount": 3,
+        "downloadCount": 0,
+        "previousDownloadCount": 14,
         "totalDownloadCount": 14,
-        "latestVersion": "1.0.1",
-        "updatedTime": "2026-10-10T11:05:48Z",
+        "latestVersion": "1.0.2",
+        "updatedTime": "2026-11-28T08:17:40Z",
         "iconToken": "gallery",
         "colorToken": "green",
         "recommended": true,
@@ -467,21 +662,21 @@
       },
       "packages": [
         {
-          "version": "1.0.1",
-          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gallery-v1.0.1/pixivdownload-plugin-gallery-1.0.1.jar",
-          "expectedSizeBytes": 213770,
-          "sha256": "2717c1f6d7db7661109f161e03746e8dc5a3376a037a585a515f76e311a64288",
+          "version": "1.0.2",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gallery-v1.0.2/pixivdownload-plugin-gallery-1.0.2.jar",
+          "expectedSizeBytes": 270748,
+          "sha256": "d13f0de1a7b3ff46383b154fda14ff673de9ea6a3e340f4744460ab934c6b0a6",
           "signature": {
             "formatVersion": 1,
             "algorithm": "Ed25519",
             "keyId": "pixivdownloader-official-root-2026-07",
-            "value": "IdzYDLqjpysEcLGvR6F6mxgnipzU/xmitLZvyfJLWNFMRSgKX5C3CHEB63u9mxfRH2qPDXK2MeCHix5B59Y8BQ=="
+            "value": "lw1ujLO0+H1Zzk2qrZ0zqqcbVOJuM5GCSOjFnk1scJrGLv/xAhc8xCsItAML6LKtoYs0H9YDwZyEhiW5YDb/AQ=="
           },
-          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gallery-v1.0.1/pixivdownload-plugin-gallery-1.0.1.jar.sig",
-          "requiredSdk": "1.2",
-          "requiredCoreApi": "1.2",
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gallery-v1.0.2/pixivdownload-plugin-gallery-1.0.2.jar.sig",
+          "requiredSdk": "2.0",
+          "requiredCoreApi": "2.0",
           "dependencies": [],
-          "releasedTime": "2026-10-10T11:05:48Z",
+          "releasedTime": "2026-11-28T08:17:40Z",
           "changeNotes": [
             "首个外置版本"
           ],
@@ -510,7 +705,13 @@
           "channel": "stable",
           "deprecated": false
         }
-      ]
+      ],
+      "history": {
+        "path": "history/gallery-2fb83eff4f21fce8870bcad858cc4737198e15ed0777f40acd09e09e1ac92c05.json",
+        "sha256": "2fb83eff4f21fce8870bcad858cc4737198e15ed0777f40acd09e09e1ac92c05",
+        "sizeBytes": 1003,
+        "versions": 1
+      }
     },
     {
       "pluginId": "novel",
@@ -523,8 +724,8 @@
           "en": "Novels"
         },
         "summary": {
-          "zh": "浏览与阅读已下载的小说，支持系列合订、AI 翻译与听书朗读。",
-          "en": "Browse and read downloaded novels, with series bundling, AI translation and read-aloud."
+          "zh": "浏览与阅读已下载的小说，支持系列合订、翻译与听书朗读。",
+          "en": "Browse and read downloaded novels, with series bundling, translation and read-aloud."
         },
         "description": {
           "zh": "提供小说下载、Pixiv 小说 API、计划任务小说执行、翻译、合订、AI 听书协作、小说画廊与阅读页。",
@@ -541,11 +742,11 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 10,
-        "previousDownloadCount": 3,
+        "downloadCount": 0,
+        "previousDownloadCount": 13,
         "totalDownloadCount": 13,
-        "latestVersion": "1.0.1",
-        "updatedTime": "2026-10-10T11:05:54Z",
+        "latestVersion": "1.1.0",
+        "updatedTime": "2026-11-28T08:17:46Z",
         "iconToken": "book",
         "colorToken": "amber",
         "recommended": true,
@@ -555,6 +756,30 @@
         "screenshots": []
       },
       "packages": [
+        {
+          "version": "1.1.0",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/novel-v1.1.0/pixivdownload-plugin-novel-1.1.0.jar",
+          "expectedSizeBytes": 939475,
+          "sha256": "164b192dce8516feb403319ac7139b0fc6c1d4811e1cef75c44558288f2c72da",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "LqJwQt+E2ksgS5x/zW5Iap5keF+0ir72qiGPb6BqqQyNIhGKf8ldIlYgNnxrRKILlIvigoz+7a8EKPnB8S2RBg=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/novel-v1.1.0/pixivdownload-plugin-novel-1.1.0.jar.sig",
+          "requiredSdk": "2.0",
+          "requiredCoreApi": "2.0",
+          "dependencies": [
+            "novel-translation-contract@>=1.0.0"
+          ],
+          "releasedTime": "2026-11-28T08:17:46Z",
+          "changeNotes": [
+            "合并小说下载核心与小说展示层为官方可选插件"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        },
         {
           "version": "1.0.1",
           "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/novel-v1.0.1/pixivdownload-plugin-novel-1.0.1.jar",
@@ -614,19 +839,42 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 12,
-        "previousDownloadCount": 0,
+        "downloadCount": 0,
+        "previousDownloadCount": 12,
         "totalDownloadCount": 12,
-        "latestVersion": "1.0.0",
-        "updatedTime": "2026-07-02T10:20:51Z",
+        "latestVersion": "1.1.0",
+        "updatedTime": "2026-11-28T08:17:52Z",
         "iconToken": "bell",
         "colorToken": "teal",
         "recommended": true,
         "officialRequired": false,
         "defaultInstalled": true,
-        "defaultLocale": "zh-CN"
+        "defaultLocale": "zh-CN",
+        "screenshots": []
       },
       "packages": [
+        {
+          "version": "1.1.0",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/notification-v1.1.0/pixivdownload-plugin-notification-1.1.0.jar",
+          "expectedSizeBytes": 125238,
+          "sha256": "69a715e108201f52909df19cdb1aa180efefb0d89ea4e917ac0a4d2936bfb1c9",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "187zdsX5JbGK34v5h+iU6TDNBWNQPhbdU8udicS0PeQiLf7oxwIiibGNrxtSnuGqolIrWSa6s7tFLEhRrwRcCw=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/notification-v1.1.0/pixivdownload-plugin-notification-1.1.0.jar.sig",
+          "requiredSdk": "2.0",
+          "requiredCoreApi": "2.0",
+          "dependencies": [],
+          "releasedTime": "2026-11-28T08:17:52Z",
+          "changeNotes": [
+            "新增管理员站内信入口、分类消息与详情页"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        },
         {
           "version": "1.0.0",
           "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/notification-v1.0.0/pixivdownload-plugin-notification-1.0.0.jar",
@@ -680,19 +928,45 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 14,
-        "previousDownloadCount": 0,
+        "downloadCount": 0,
+        "previousDownloadCount": 14,
         "totalDownloadCount": 14,
-        "latestVersion": "1.0.0",
-        "updatedTime": "2026-08-13T19:44:33Z",
+        "latestVersion": "1.0.1",
+        "updatedTime": "2026-11-28T08:17:58Z",
         "iconToken": "users",
         "colorToken": "amber",
         "recommended": true,
         "officialRequired": false,
         "defaultInstalled": true,
-        "defaultLocale": "zh-CN"
+        "defaultLocale": "zh-CN",
+        "screenshots": []
       },
       "packages": [
+        {
+          "version": "1.0.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/multi-mode-decision-survey-v1.0.1/pixivdownload-plugin-multi-mode-decision-survey-1.0.1.jar",
+          "expectedSizeBytes": 30250,
+          "sha256": "bd7ba8c1e6bd328b809680a0bc70880a52960cfce2549703bbcadb367c705f1f",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "v65dcz1TamMvPN2jMgFHg0fs0mrIFJAQTbAccT5WSvpxtzJkn3LW1oFJ+SIzt1kYrS94Ky222l1+VOcRBsu/Ag=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/multi-mode-decision-survey-v1.0.1/pixivdownload-plugin-multi-mode-decision-survey-1.0.1.jar.sig",
+          "requiredSdk": "2.0",
+          "requiredCoreApi": "2.0",
+          "dependencies": [
+            "posthog@1.0",
+            "notification@1.0"
+          ],
+          "releasedTime": "2026-11-28T08:17:58Z",
+          "changeNotes": [
+            "新增多人模式去留调查站内信"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        },
         {
           "version": "1.0.0",
           "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/multi-mode-decision-survey-v1.0.0/pixivdownload-plugin-multi-mode-decision-survey-1.0.0.jar",
@@ -748,11 +1022,11 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 10,
-        "previousDownloadCount": 3,
+        "downloadCount": 0,
+        "previousDownloadCount": 13,
         "totalDownloadCount": 13,
-        "latestVersion": "1.0.1",
-        "updatedTime": "2026-10-10T11:06:02Z",
+        "latestVersion": "1.0.2",
+        "updatedTime": "2026-11-28T08:18:04Z",
         "iconToken": "bell",
         "colorToken": "blue",
         "recommended": true,
@@ -762,6 +1036,30 @@
         "screenshots": []
       },
       "packages": [
+        {
+          "version": "1.0.2",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/push-v1.0.2/pixivdownload-plugin-push-1.0.2.jar",
+          "expectedSizeBytes": 182921,
+          "sha256": "5c181becef531ebd32268b3d3fae759f1597802d634c0a3bd83b8e07bb3c3349",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "6/PxTLNkAmBolWVqdiBPuftUW2mmoB9qpyisWfZRyZzwFNn45Vsu0e7+WfPAsNaNbsLwKqox0r8WAomaybYSDA=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/push-v1.0.2/pixivdownload-plugin-push-1.0.2.jar.sig",
+          "requiredSdk": "2.0",
+          "requiredCoreApi": "2.0",
+          "dependencies": [
+            "notification@1.0"
+          ],
+          "releasedTime": "2026-11-28T08:18:04Z",
+          "changeNotes": [
+            "首个外置版本"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        },
         {
           "version": "1.0.1",
           "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/push-v1.0.1/pixivdownload-plugin-push-1.0.1.jar",
@@ -822,19 +1120,44 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 12,
-        "previousDownloadCount": 0,
+        "downloadCount": 0,
+        "previousDownloadCount": 12,
         "totalDownloadCount": 12,
-        "latestVersion": "1.0.0",
-        "updatedTime": "2026-07-01T16:15:47Z",
+        "latestVersion": "1.0.1",
+        "updatedTime": "2026-11-28T08:18:10Z",
         "iconToken": "mail",
         "colorToken": "green",
         "recommended": true,
         "officialRequired": false,
         "defaultInstalled": true,
-        "defaultLocale": "zh-CN"
+        "defaultLocale": "zh-CN",
+        "screenshots": []
       },
       "packages": [
+        {
+          "version": "1.0.1",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/mail-v1.0.1/pixivdownload-plugin-mail-1.0.1.jar",
+          "expectedSizeBytes": 1081441,
+          "sha256": "aa485feb94571698ca9cc1937e27c37c7ab9ec115a0a8aafa4670cc0e15f72c9",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "p5zAs+GsDwdWoGCxpfKKbCEBePA+L6UjgCfz0fto+n7WYzhwFgXUNKxuOCvVqW/T5Bi67nWqJt1nLsssbEMABw=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/mail-v1.0.1/pixivdownload-plugin-mail-1.0.1.jar.sig",
+          "requiredSdk": "2.0",
+          "requiredCoreApi": "2.0",
+          "dependencies": [
+            "notification@1.0"
+          ],
+          "releasedTime": "2026-11-28T08:18:10Z",
+          "changeNotes": [
+            "首个外置版本"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        },
         {
           "version": "1.0.0",
           "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/mail-v1.0.0/pixivdownload-plugin-mail-1.0.0.jar",
@@ -889,11 +1212,11 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 10,
-        "previousDownloadCount": 3,
+        "downloadCount": 0,
+        "previousDownloadCount": 13,
         "totalDownloadCount": 13,
-        "latestVersion": "1.0.1",
-        "updatedTime": "2026-10-10T11:06:09Z",
+        "latestVersion": "1.0.2",
+        "updatedTime": "2026-11-28T08:18:16Z",
         "iconToken": "audio-lines",
         "colorToken": "amber",
         "recommended": true,
@@ -903,6 +1226,28 @@
         "screenshots": []
       },
       "packages": [
+        {
+          "version": "1.0.2",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/tts-v1.0.2/pixivdownload-plugin-tts-1.0.2.jar",
+          "expectedSizeBytes": 290370,
+          "sha256": "8e4eec75b9f71e0223480cded0731d461d4821b3fde93b6263dcb7caf943a6b4",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "E4cXmVZHyVkGf+W2+127dKKN0cmzqhqPV8w6aH4CyKBqzf0fFL+mgnRCSbFYYR96RhEH7RPfV5X069XzDmduDw=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/tts-v1.0.2/pixivdownload-plugin-tts-1.0.2.jar.sig",
+          "requiredSdk": "2.0",
+          "requiredCoreApi": "2.0",
+          "dependencies": [],
+          "releasedTime": "2026-11-28T08:18:16Z",
+          "changeNotes": [
+            "首个外置版本"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        },
         {
           "version": "1.0.1",
           "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/tts-v1.0.1/pixivdownload-plugin-tts-1.0.1.jar",
@@ -940,20 +1285,20 @@
       "descriptionKey": "plugin.summary",
       "market": {
         "displayName": {
-          "zh": "AI 翻译",
-          "en": "AI Translation"
+          "zh": "AI 模型",
+          "en": "AI Models"
         },
         "summary": {
-          "zh": "OpenAI 兼容聊天与自动翻译能力。",
-          "en": "OpenAI-compatible chat and translation capabilities."
+          "zh": "提供 OpenAI 兼容模型的凭证、配置与调用能力。",
+          "en": "Provides credentials, configuration and access to OpenAI-compatible models."
         },
         "description": {
-          "zh": "提供 OpenAI 兼容模型调用、连接测试、小说自动翻译、系列翻译与听书剧本分析的 AI 能力。",
-          "en": "Adds OpenAI-compatible model calls, connectivity tests, novel auto-translation, series translation, and AI narration analysis."
+          "zh": "统一管理 OpenAI 兼容模型的连接、凭证与配置，为翻译、朗读脚本等业务提供模型调用能力。",
+          "en": "Manages connections, credentials and settings for OpenAI-compatible models used by translation and narration script features."
         },
         "author": "Sywyar",
         "sourceType": "official",
-        "category": "translate",
+        "category": "dependency",
         "tags": [
           "ai",
           "translation",
@@ -961,11 +1306,11 @@
         ],
         "homepageUrl": "https://github.com/Sywyar/PixivDownloader",
         "license": "AGPL-3.0-only",
-        "downloadCount": 12,
-        "previousDownloadCount": 4,
+        "downloadCount": 0,
+        "previousDownloadCount": 16,
         "totalDownloadCount": 16,
-        "latestVersion": "1.0.1",
-        "updatedTime": "2026-10-10T11:06:15Z",
+        "latestVersion": "1.0.2",
+        "updatedTime": "2026-11-28T08:18:22Z",
         "iconToken": "sparkles",
         "colorToken": "teal",
         "recommended": true,
@@ -975,6 +1320,28 @@
         "screenshots": []
       },
       "packages": [
+        {
+          "version": "1.0.2",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/ai-v1.0.2/pixivdownload-plugin-ai-1.0.2.jar",
+          "expectedSizeBytes": 87761,
+          "sha256": "91f19f49dd53b48cb67fbb19478047a5e1abcfc520c2090f4507211520df499f",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "HZQan/ihwbUNDubvIAN8euX8oaCuvcorzCmc+ljYwIW0FavSsLU7qlGSNaTkqm7czHPS56jLmxP/v48ytOM4DQ=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/ai-v1.0.2/pixivdownload-plugin-ai-1.0.2.jar.sig",
+          "requiredSdk": "2.0",
+          "requiredCoreApi": "2.0",
+          "dependencies": [],
+          "releasedTime": "2026-11-28T08:18:22Z",
+          "changeNotes": [
+            "翻译界面与任务迁入独立翻译插件"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        },
         {
           "version": "1.0.1",
           "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/ai-v1.0.1/pixivdownload-plugin-ai-1.0.1.jar",
@@ -1006,6 +1373,338 @@
       }
     },
     {
+      "pluginId": "translation",
+      "displayNamespace": "translate",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "翻译",
+          "en": "Translation"
+        },
+        "summary": {
+          "zh": "使用 AI、云端机器翻译或自建 LibreTranslate 翻译小说。",
+          "en": "Translate novels with AI, a cloud translation service or a self-hosted LibreTranslate instance."
+        },
+        "description": {
+          "zh": "提供小说手动和自动翻译，支持 AI 模型、有道文本翻译 API，以及用户部署的 LibreTranslate 服务。本地服务和模型需自行准备。",
+          "en": "Provides manual and automatic novel translation using AI models, the Youdao text translation API or a user-managed LibreTranslate service. Local services and models must be installed separately."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "utility",
+        "tags": [
+          "translation",
+          "novel",
+          "ai",
+          "offline"
+        ],
+        "homepageUrl": "https://sywyar.github.io/PixivDownloader/#/zh-cn/novel",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0",
+        "updatedTime": "2026-11-28T08:18:28Z",
+        "iconToken": "sparkles",
+        "colorToken": "teal",
+        "recommended": true,
+        "officialRequired": false,
+        "defaultInstalled": true,
+        "defaultLocale": "zh-CN",
+        "screenshots": []
+      },
+      "packages": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/translation-v1.0.0/pixivdownload-plugin-translation-1.0.0.jar",
+          "expectedSizeBytes": 254415,
+          "sha256": "c6d24650be72c7479d44b9dd7db0e01e99f0f621be94c5fb67dada79b6f8bb6b",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "qEU5Z7oMLcRrNWNuQf1M4riXsc3PcaLS458hzmVbHidTvDD24Ysfo1OEnxifeh/+1ugDhLCttmYv1dTeS5lMDw=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/translation-v1.0.0/pixivdownload-plugin-translation-1.0.0.jar.sig",
+          "requiredSdk": "2.0",
+          "requiredCoreApi": "2.0",
+          "dependencies": [
+            "novel-translation-contract@>=1.0.0"
+          ],
+          "releasedTime": "2026-11-28T08:18:28Z",
+          "changeNotes": [
+            "翻译功能独立为插件，新增有道与 LibreTranslate 引擎"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "novel-translation-contract",
+      "displayNamespace": "novel-translation-contract",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "小说翻译契约",
+          "en": "Novel translation contract"
+        },
+        "summary": {
+          "zh": "为小说与翻译插件提供内容和任务接口。",
+          "en": "Content and task interfaces shared by novel and translation plugins."
+        },
+        "description": {
+          "zh": "提供小说数据与翻译服务之间的共享契约类型，由依赖它的插件自动安装。",
+          "en": "Provides shared contract types for novel data and translation services, installed as a dependency of the plugins that use it."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "dependency",
+        "tags": [
+          "contract",
+          "translation"
+        ],
+        "homepageUrl": "https://sywyar.github.io/PixivDownloader/#/zh-cn/novel",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0",
+        "updatedTime": "2026-11-28T08:18:34Z",
+        "iconToken": "sparkles",
+        "colorToken": "teal",
+        "recommended": true,
+        "officialRequired": false,
+        "defaultInstalled": true,
+        "defaultLocale": "zh-CN",
+        "screenshots": []
+      },
+      "packages": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/novel-translation-contract-v1.0.0/pixivdownload-plugin-novel-translation-contract-1.0.0.jar",
+          "expectedSizeBytes": 28118,
+          "sha256": "a6f9b9df9c379383d2fa5c5d0642e98765cc6b5a6f864ca1052bc9f8683d5a18",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "6EVxboKKquHfABvU6/2eswh5DmK+Ok6Djh9rkbDsD95bjE53mq0bC5pvmOgECOTJAdzeLYXpYkPefhAyr8FADQ=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/novel-translation-contract-v1.0.0/pixivdownload-plugin-novel-translation-contract-1.0.0.jar.sig",
+          "requiredSdk": "2.0",
+          "requiredCoreApi": "2.0",
+          "dependencies": [],
+          "releasedTime": "2026-11-28T08:18:34Z",
+          "changeNotes": [
+            "新增小说翻译契约"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "page-editor",
+      "displayNamespace": "page-editor",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "页面编辑器",
+          "en": "Page editor"
+        },
+        "summary": {
+          "zh": "拖拽组件，编辑页面布局并发布。",
+          "en": "Arrange components, edit page layouts and publish."
+        },
+        "description": {
+          "zh": "通过拖拽组件编辑页面布局、样式和属性，保存草稿并发布或恢复上一版。组件由独立插件贡献，登录页面保留原认证表单与默认外观恢复入口。",
+          "en": "Drag components to edit page layout, styles and properties. Save drafts, publish, or restore the previous publication. Independent plugins contribute components; the login page retains its authentication form and default appearance recovery."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "utility",
+        "tags": [
+          "page",
+          "editor",
+          "layout"
+        ],
+        "homepageUrl": "https://sywyar.github.io/PixivDownloader/#/zh-cn/page-editor",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "0.1.0",
+        "updatedTime": "2026-11-28T08:18:40Z",
+        "iconToken": "pen",
+        "colorToken": "blue",
+        "recommended": false,
+        "officialRequired": false,
+        "defaultInstalled": false,
+        "defaultLocale": "zh-CN",
+        "screenshots": []
+      },
+      "packages": [
+        {
+          "version": "0.1.0",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/page-editor-v0.1.0/pixivdownload-plugin-page-editor-0.1.0.jar",
+          "expectedSizeBytes": 713110,
+          "sha256": "e2bed4f63c49c5d7701f0bff126f18d9d0b2c08996aca319c60d6800ecd38cbc",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "tJszqgvxljc2vM+IA0y0mL0WH/iPGoREBR2dtHGZjnSaDf7nxfcWbB+g1XfprRwawGGqC8vmZdnDv5r9lPy0CA=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/page-editor-v0.1.0/pixivdownload-plugin-page-editor-0.1.0.jar.sig",
+          "requiredSdk": "2.0",
+          "requiredCoreApi": "2.0",
+          "dependencies": [],
+          "releasedTime": "2026-11-28T08:18:40Z",
+          "changeNotes": [
+            "新增可视化页面编辑、插件组件与发布恢复"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "captcha",
+      "displayNamespace": "captcha",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "操作验证码",
+          "en": "Operation CAPTCHA"
+        },
+        "summary": {
+          "zh": "在线与本地验证码，支持计算验证、字符输入和滑块拼图",
+          "en": "Online and local CAPTCHA with proof of work, character entry and slider puzzles"
+        },
+        "description": {
+          "zh": "官方可选验证码插件，提供 Turnstile、reCAPTCHA v2 在线验证，以及 ALTCHA SHA-256、ALTCHA PBKDF2、字符输入和滑块拼图离线组件。拖入兼容表单并发布后由后端强制验证。首次启用自动生成并加密保存离线签名密钥；在线验证须配置站点凭据。普通发行包不预装，离线全量包包含。",
+          "en": "Optional official CAPTCHA plugin with Turnstile and reCAPTCHA v2 online verification, plus ALTCHA SHA-256, ALTCHA PBKDF2, text input and slider puzzle offline components. Bind a compatible form and publish to enforce verification on the server. The local signing key is generated and encrypted on first activation; online verification requires site credentials. Standard distributions do not preinstall it; the full offline bundle includes it."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "utility",
+        "tags": [
+          "captcha",
+          "verification",
+          "form"
+        ],
+        "homepageUrl": "https://sywyar.github.io/PixivDownloader/#/zh-cn/captcha",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0",
+        "updatedTime": "2026-11-28T08:18:46Z",
+        "iconToken": "shield-halved",
+        "colorToken": "green",
+        "recommended": false,
+        "officialRequired": false,
+        "defaultInstalled": false,
+        "defaultLocale": "zh-CN",
+        "screenshots": []
+      },
+      "packages": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/captcha-v1.0.0/pixivdownload-plugin-captcha-1.0.0.jar",
+          "expectedSizeBytes": 7768101,
+          "sha256": "06178c189d5b98c71f1ab45a871d2a04ad2f1ec912b4b35a48677be987838696",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "d3ILnl+qwrf73OQe//Y8iFHW/OnBA8PYPir2weZZqE1fQuE1LoTvGD+xpXwZuXQt4E0cX6mKZd3cJ8wHXiSDBg=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/captcha-v1.0.0/pixivdownload-plugin-captcha-1.0.0.jar.sig",
+          "requiredSdk": "2.0",
+          "requiredCoreApi": "2.0",
+          "dependencies": [],
+          "releasedTime": "2026-11-28T08:18:46Z",
+          "changeNotes": [
+            "提供可绑定表单的在线与离线验证码"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        }
+      ]
+    },
+    {
+      "pluginId": "database-postgresql",
+      "displayNamespace": "database-postgresql",
+      "displayNameKey": "plugin.name",
+      "descriptionKey": "plugin.summary",
+      "market": {
+        "displayName": {
+          "zh": "PostgreSQL 数据库",
+          "en": "PostgreSQL database"
+        },
+        "summary": {
+          "zh": "连接 PostgreSQL 服务器，保存应用和插件的数据。切换数据库需要完全重启程序。",
+          "en": "Store application and plugin data on a PostgreSQL server. Database changes require a full application restart."
+        },
+        "description": {
+          "zh": "支持 PostgreSQL 17 / 18（UTF8），为私有存储创建独立受限角色与 schema。须配置具备所需管理权限的连接，安装后须完整重启。切换数据库请在设置页检查并确认迁移；直接修改连接配置不会迁移数据。",
+          "en": "Supports PostgreSQL 17 and 18 with UTF8 and creates restricted roles and schemas for private storage. Requires connection credentials with the necessary management privileges and a full restart after installation. To switch databases, check and confirm migration in Settings; editing the connection configuration directly does not migrate data."
+        },
+        "author": "Sywyar",
+        "sourceType": "official",
+        "category": "database",
+        "tags": [
+          "database",
+          "postgresql",
+          "storage"
+        ],
+        "homepageUrl": "https://sywyar.github.io/PixivDownloader/#/en/configuration?id=main-database-and-existing-data",
+        "license": "AGPL-3.0-only",
+        "downloadCount": 0,
+        "previousDownloadCount": 0,
+        "totalDownloadCount": 0,
+        "latestVersion": "1.0.0",
+        "updatedTime": "2026-11-28T08:18:52Z",
+        "iconToken": "database",
+        "colorToken": "blue",
+        "recommended": false,
+        "officialRequired": false,
+        "defaultInstalled": false,
+        "defaultLocale": "zh-CN",
+        "screenshots": []
+      },
+      "packages": [
+        {
+          "version": "1.0.0",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/database-postgresql-v1.0.0/pixivdownload-plugin-database-postgresql-1.0.0.jar",
+          "expectedSizeBytes": 1370834,
+          "sha256": "4d54885ebaf63be07b605ab98fd673854b9dc9a4121b2237611e8b9025046f73",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "48RZ+U8M43mhwqu3rHkvAGjEr4pmU3N9IpjHJ7lKZevBFkPfKfjE2Hvw8BWzdGx5ETbMXROXwvYUbdwkBkf2Ag=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/database-postgresql-v1.0.0/pixivdownload-plugin-database-postgresql-1.0.0.jar.sig",
+          "requiredSdk": "2.0",
+          "requiredCoreApi": "2.0",
+          "dependencies": [],
+          "releasedTime": "2026-11-28T08:18:52Z",
+          "changeNotes": [
+            "以外置数据库插件提供 PostgreSQL 连接"
+          ],
+          "channel": "stable",
+          "deprecated": false
+        }
+      ]
+    },
+    {
       "pluginId": "pixiv-batch-downloader-import",
       "displayNamespace": "pixiv-batch-downloader-import",
       "displayNameKey": "plugin.name",
@@ -1016,8 +1715,8 @@
           "en": "PixivBatchDownloader import support"
         },
         "summary": {
-          "zh": "配合油猴脚本，将 PixivBatchDownloader 此后下载完成的作品自动导入画廊，保留原文件；首次使用需配置下载目录。",
-          "en": "Use the companion userscript to automatically add new PixivBatchDownloader downloads to the gallery while keeping the originals. Configure the download directory once before use."
+          "zh": "直接读取浏览器中的 PixivBatchDownloader 下载历史，也可从桌面导入历史文件或自动采集新下载，保留原文件。",
+          "en": "Read PixivBatchDownloader history directly from the browser, import history files from the desktop, or automatically collect new downloads. Original files are retained."
         },
         "description": {
           "zh": "官方可选插件，普通发行包不预装，离线全量包包含。安装插件后须完全退出并重新启动本程序。在单人模式下安装下载页提供的油猴脚本，配置一次同机下载目录并重启后端，即可自动将 PixivBatchDownloader 后续下载完成的插画、漫画、动图和小说导入对应画廊。直接读取原文件，不复制；删除画廊记录也保留原文件。不扫描历史下载。",
@@ -1034,19 +1733,72 @@
         ],
         "homepageUrl": "https://sywyar.github.io/PixivDownloader/#/zh-cn/pixiv-batch-downloader-import",
         "license": "AGPL-3.0-only",
-        "downloadCount": 24,
-        "previousDownloadCount": 0,
+        "downloadCount": 0,
+        "previousDownloadCount": 24,
         "totalDownloadCount": 24,
-        "latestVersion": "1.0.0",
-        "updatedTime": "2026-10-02T17:08:33Z",
+        "latestVersion": "1.1.0",
+        "updatedTime": "2026-11-28T08:18:58Z",
         "iconToken": "download",
         "colorToken": "blue",
         "recommended": true,
         "officialRequired": false,
         "defaultInstalled": false,
-        "defaultLocale": "zh-CN"
+        "defaultLocale": "zh-CN",
+        "screenshots": []
       },
       "packages": [
+        {
+          "version": "1.1.0",
+          "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/pixiv-batch-downloader-import-v1.1.0/pixivdownload-plugin-pixiv-batch-downloader-import-1.1.0.jar",
+          "expectedSizeBytes": 135488,
+          "sha256": "fdd4c1a60c957b932ed887e5925a203228ce22bd82d2300bf7425ff54d2d5baf",
+          "signature": {
+            "formatVersion": 1,
+            "algorithm": "Ed25519",
+            "keyId": "pixivdownloader-official-root-2026-07",
+            "value": "5ZybzeN4QiNY2NAo/BD9RzaEZuZgjB3Eg5s5ilzUyF6QjKI/rrzeM05mSeCQqHW0TzZVVTmJVMw+tiYbVqmoCg=="
+          },
+          "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/pixiv-batch-downloader-import-v1.1.0/pixivdownload-plugin-pixiv-batch-downloader-import-1.1.0.jar.sig",
+          "requiredSdk": "2.0",
+          "requiredCoreApi": "2.0",
+          "dependencies": [],
+          "releasedTime": "2026-11-28T08:18:58Z",
+          "changeNotes": [
+            "新增 PixivBatchDownloader 导入支持，自动导入后续下载完成的插画、漫画、动图和小说，保留原文件"
+          ],
+          "channel": "stable",
+          "deprecated": false,
+          "content": {
+            "readme": {
+              "zh-CN": {
+                "format": "markdown",
+                "asset": {
+                  "name": "content-e9dd193b57b9b1b0d5f283059f7e0466a9934d712721480dfff159194624bd0d.md",
+                  "url": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/pixiv-batch-downloader-import-v1.1.0/content-e9dd193b57b9b1b0d5f283059f7e0466a9934d712721480dfff159194624bd0d.md",
+                  "mediaType": "text/markdown",
+                  "size": 2843,
+                  "sha256": "e9dd193b57b9b1b0d5f283059f7e0466a9934d712721480dfff159194624bd0d"
+                },
+                "sourcePath": "pixivdownload-plugin-pixiv-batch-downloader-import/README.md",
+                "resources": {},
+                "sourceUrl": "https://github.com/Sywyar/PixivDownloader/blob/bf2e874c61129200863fbae9a2e5b887ffeefbfe/pixivdownload-plugin-pixiv-batch-downloader-import/README.md"
+              },
+              "en": {
+                "format": "markdown",
+                "asset": {
+                  "name": "content-aa213d96069dfe82439ad3542c1583f22660bc63ea2c5f7275675d47dafe816b.md",
+                  "url": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/pixiv-batch-downloader-import-v1.1.0/content-aa213d96069dfe82439ad3542c1583f22660bc63ea2c5f7275675d47dafe816b.md",
+                  "mediaType": "text/markdown",
+                  "size": 3103,
+                  "sha256": "aa213d96069dfe82439ad3542c1583f22660bc63ea2c5f7275675d47dafe816b"
+                },
+                "sourcePath": "pixivdownload-plugin-pixiv-batch-downloader-import/README_en.md",
+                "resources": {},
+                "sourceUrl": "https://github.com/Sywyar/PixivDownloader/blob/bf2e874c61129200863fbae9a2e5b887ffeefbfe/pixivdownload-plugin-pixiv-batch-downloader-import/README_en.md"
+              }
+            }
+          }
+        },
         {
           "version": "1.0.0",
           "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/pixiv-batch-downloader-import-v1.0.0/pixivdownload-plugin-pixiv-batch-downloader-import-1.0.0.jar",

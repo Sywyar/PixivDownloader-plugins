@@ -1,0 +1,27 @@
+{
+  "pluginId": "gallery",
+  "packages": [
+    {
+      "version": "1.0.1",
+      "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gallery-v1.0.1/pixivdownload-plugin-gallery-1.0.1.jar",
+      "expectedSizeBytes": 213770,
+      "sha256": "2717c1f6d7db7661109f161e03746e8dc5a3376a037a585a515f76e311a64288",
+      "signature": {
+        "formatVersion": 1,
+        "algorithm": "Ed25519",
+        "keyId": "pixivdownloader-official-root-2026-07",
+        "value": "IdzYDLqjpysEcLGvR6F6mxgnipzU/xmitLZvyfJLWNFMRSgKX5C3CHEB63u9mxfRH2qPDXK2MeCHix5B59Y8BQ=="
+      },
+      "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gallery-v1.0.1/pixivdownload-plugin-gallery-1.0.1.jar.sig",
+      "requiredSdk": "1.2",
+      "requiredCoreApi": "1.2",
+      "dependencies": [],
+      "releasedTime": "2026-10-10T11:05:48Z",
+      "changeNotes": [
+        "首个外置版本"
+      ],
+      "channel": "stable",
+      "deprecated": false
+    }
+  ]
+}

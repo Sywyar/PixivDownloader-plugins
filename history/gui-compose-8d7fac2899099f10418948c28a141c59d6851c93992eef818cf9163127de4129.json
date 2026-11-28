@@ -1,0 +1,49 @@
+{
+  "pluginId": "gui-compose",
+  "packages": [
+    {
+      "version": "1.0.2",
+      "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-compose-v1.0.2/pixivdownload-plugin-gui-compose-1.0.2.jar",
+      "expectedSizeBytes": 93843878,
+      "sha256": "3647c51b3c0ab3a2599edbe3de4d4aa83dc8caffd9361ddbe612ef6bbfd991d1",
+      "signature": {
+        "formatVersion": 1,
+        "algorithm": "Ed25519",
+        "keyId": "pixivdownloader-official-root-2026-07",
+        "value": "dBust8u/Da/miXtrDSjY5FC44kzm8EXhgJHpHh+PARDInVozYAoQvCzh7tftvdNEf+pWdaDYQ/h2fryE4aqrCw=="
+      },
+      "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-compose-v1.0.2/pixivdownload-plugin-gui-compose-1.0.2.jar.sig",
+      "requiredSdk": "1.3",
+      "requiredCoreApi": "1.3",
+      "dependencies": [],
+      "releasedTime": "2026-10-16T13:30:02Z",
+      "changeNotes": [
+        "新增 Compose Multiplatform 桌面 UI 提供者"
+      ],
+      "channel": "stable",
+      "deprecated": false
+    },
+    {
+      "version": "1.0.1",
+      "packageUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-compose-v1.0.1/pixivdownload-plugin-gui-compose-1.0.1.jar",
+      "expectedSizeBytes": 93845518,
+      "sha256": "2bb90cc127aeeaf1108430d170aff6a3e5bc49c294e77f9c5c32f4396bfa7957",
+      "signature": {
+        "formatVersion": 1,
+        "algorithm": "Ed25519",
+        "keyId": "pixivdownloader-official-root-2026-07",
+        "value": "n279tFAu3Kyn5xyvWeKQUukD0pUsUFuHk9bjBt6aW0p5C4Q35utmH54aVlwGnjUIr4nUp9JczFxC+AvvhMTPBQ=="
+      },
+      "signatureUrl": "https://github.com/Sywyar/PixivDownloader-plugins/releases/download/gui-compose-v1.0.1/pixivdownload-plugin-gui-compose-1.0.1.jar.sig",
+      "requiredSdk": "1.2",
+      "requiredCoreApi": "1.2",
+      "dependencies": [],
+      "releasedTime": "2026-10-10T11:05:30Z",
+      "changeNotes": [
+        "新增 Compose Multiplatform 桌面 UI 提供者"
+      ],
+      "channel": "stable",
+      "deprecated": false
+    }
+  ]
+}
